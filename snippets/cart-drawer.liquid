@@ -48,9 +48,10 @@
               {%- endif -%}
             </div>
           </div>
-          {%- if settings.cart_drawer_collection != blank -%}
+          {%- if settings.cart_drawer_product != blank -%}
             <div class="cart-drawer__collection">
-              {% render 'card-collection', card_collection: settings.cart_drawer_collection, columns: 1 %}
+              <h2 class="center">{{ settings.heading_cart_product }}</h2>
+              {% render 'card-product', card_product: settings.cart_drawer_product, columns: 1 %}
             </div>
           {%- endif -%}
         </div>

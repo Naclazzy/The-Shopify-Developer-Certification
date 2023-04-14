@@ -1551,9 +1551,14 @@
         "content": "t:settings_schema.cart.settings.cart_drawer.header"
       },
       {
-        "type": "collection",
-        "id": "cart_drawer_collection",
-        "label": "t:settings_schema.cart.settings.cart_drawer.collection.label",
+        "type": "text",
+        "id": "heading_cart_product",
+        "label": "Title"
+      },
+      {
+        "type": "product",
+        "id": "cart_drawer_product",
+        "label": "Product",
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
       }
     ]
