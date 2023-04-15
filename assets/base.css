@@ -221,6 +221,35 @@
   --shadow-visible: var(--media-shadow-visible);
 }
 
+/* custom */
+
+@media only screen and (min-width: 992px) {
+  .video-desktop video {
+  width: 100%;
+  }
+  .video-mobile {
+  display: none; 
+  }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 991px) {
+  .video-mobile {
+  display: none;
+  }
+  .video-desktop video {
+  width: 100%;
+  }
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .video-mobile video {
+  width: 100%;
+  }
+  .video-desktop {
+  display: none;
+  }
+  }
+
 /* base */
 
 .no-js:not(html) {
