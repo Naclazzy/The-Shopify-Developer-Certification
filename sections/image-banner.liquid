@@ -1,5 +1,6 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-
+{{ 'video-section.css' | asset_url | stylesheet_tag }}
+{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
 {%- style -%}
 @media screen and (max-width: 749px) {
@@ -29,15 +30,25 @@ opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
 }
 {%- endstyle -%}
 
-
 {%- if section.settings.checkbox_2 -%}
 <div class="page-width">
+  {%- if section.settings.video_desktop != blank -%}
   <div class="video-desktop">
     {{ section.settings.video_desktop | video_tag: controls: true, preload: none }}
   </div>
+  {%- elsif section.settings.video_desktop == blank and section.settings.video_mobile == blank -%}
+  <div class="title-wrapper title-wrapper--no-top-margin">
+    <h2 class="title">Video</h2>
+    {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+  </div>
+  {%- endif-%}
 
   <div class="video-mobile">
+    {%- if section.settings.video_mobile != blank -%}
     {{ section.settings.video_mobile | video_tag: controls: true, preload: none }}
+    {%- else -%}
+    {{ section.settings.video_desktop | video_tag: controls: true, preload: none }}
+    {%- endif -%}
   </div>
 </div>
 
