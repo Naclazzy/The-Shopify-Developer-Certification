@@ -6,6 +6,7 @@ Usage:
 {% endcomment %}
 
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
+<!--<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>-->
 
 <style>
   .drawer {
@@ -14,6 +15,10 @@ Usage:
 
   .no-footer {
     display: none;
+  }
+
+  .space {
+    padding: 20px 0;
   }
 </style>
 
@@ -45,11 +50,15 @@ Usage:
           </div>
         </div>
         {%- if settings.cart_drawer_product != blank -%}
-        <div class="cart-drawer__collection">
+        <div class="">
           <h2 class="center">{{ settings.heading_cart_product }}</h2>
           {% render 'card-product', card_product: settings.cart_drawer_product, columns: 1 %}
         </div>
         {%- endif -%}
+        <div class="space">
+          {%- render 'buy-buttons', block: block, product: settings.cart_drawer_product, product_form_id:
+          product_form_id, section_id: section.id -%}
+        </div>
       </div>
       {%- endif -%}
       <div class="drawer__header">
@@ -378,6 +387,7 @@ Usage:
     document.querySelector('#cart').appendChild(cartSubmitInput);
     document.querySelector('#checkout').addEventListener('click', function (event) {
       document.querySelector('#cart').submit();
+      console.log("cart-drawer.liquid")
     });
   });
 </script>
