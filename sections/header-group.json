@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -13,12 +22,24 @@
             "color_scheme": "accent-2",
             "link": ""
           }
+        },
+        "countdown_jMNzGX": {
+          "type": "countdown",
+          "settings": {
+            "text_2": "Countdown",
+            "countdown": "Dec 25, 2027 23:59:00 GMT-0700",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link_2": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "countdown_jMNzGX"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "header": {
       "type": "header",
