@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -14,7 +23,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -27,7 +36,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner_image_main.jpg",
+        "checkbox_2": true,
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -96,7 +105,7 @@
         "template--18547079250238__87014642-38ea-44d4-9cb6-593e94aea1b2-168100581240f264ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Join the Coffee Club and indulge in our premium coffee blends and delicious food options, all while enjoying a warm and welcoming atmosphere perfect for meeting friends or getting work done.<\/p>",
+            "text": "<p>Join the Coffee Club and indulge in our premium coffee blends and delicious food options, all while enjoying a warm and welcoming atmosphere perfect for meeting friends or getting work done.</p>",
             "text_style": "body"
           }
         },
@@ -114,7 +123,6 @@
         "template--18547079250238__87014642-38ea-44d4-9cb6-593e94aea1b2-168100581240f264ad-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/product_pack-t.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -132,8 +140,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/Roasting-video-thumbnail.jpg",
-        "video_url": "https:\/\/player.vimeo.com\/video\/582023095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "video_url": "https://player.vimeo.com/video/582023095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         "description": "Coffee Homepage Video",
         "full_width": false,
         "color_scheme": "background-1",
@@ -153,15 +160,11 @@
         },
         "template--18547079250238__8c536c71-22bb-487b-9080-928cf92629a7-1681006263b4fbe9ae-0": {
           "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/collage-section_1.png"
-          }
+          "settings": {}
         },
         "559ff7ba-04c0-41ff-942f-5ad1f250035a": {
           "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/collage-section.jpg"
-          }
+          "settings": {}
         }
       },
       "block_order": [
