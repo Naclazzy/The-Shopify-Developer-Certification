@@ -1,0 +1,40 @@
+{
+  "sections": {
+    "main": {
+      "type": "content-hub-article",
+      "settings": {
+        "enable_slider": true,
+        "sections_margin": 30,
+        "color": "#000000",
+        "text_color": "#ffffff",
+        "alpha": 0.2,
+        "button_hover_background_color": "#b8967a",
+        "button_hover_text_color": "#ffffff"
+      }
+    },
+    "content_hub_001": {
+      "type": "content-hub",
+      "blocks": {},
+      "block_order": [],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "title-color": "#000000",
+        "text-color": "#000000",
+        "active-color": "#000000",
+        "background-color": "#f4f2f0",
+        "sidebar-background-color": "#f4f2f0",
+        "sidebar-active-color": "#003a4b",
+        "table-of-contents-menu": "",
+        "link-top-spacing": 16,
+        "link-right-spacing": 5,
+        "link-bottom-spacing": 16,
+        "link-left-spacing": 12
+      }
+    }
+  },
+  "order": [
+    "main",
+    "content_hub_001"
+  ]
+}
