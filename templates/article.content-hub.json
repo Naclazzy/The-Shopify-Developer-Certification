@@ -196,7 +196,7 @@
         "background-color": "#f4f2f0",
         "sidebar-background-color": "#f4f2f0",
         "sidebar-active-color": "#003a4b",
-        "table-of-contents-menu": "main-menu",
+        "table-of-contents-menu": "footer",
         "link-top-spacing": 16,
         "link-right-spacing": 0,
         "link-bottom-spacing": 16,
