@@ -204,36 +204,6 @@
             "text_color": "#ffffff"
           }
         },
-        "image_teaser_Urracj": {
-          "type": "image_teaser",
-          "settings": {
-            "section_id": "",
-            "heading": "",
-            "heading_level": "h3",
-            "section_content": "",
-            "section_button_text": "",
-            "section_button_link": "",
-            "section_image_position": "row",
-            "background_color": "#ffffff",
-            "button_background_color": "#000000",
-            "button_text_color": "#ffffff"
-          }
-        },
-        "image_teaser_iEdJxD": {
-          "type": "image_teaser",
-          "settings": {
-            "section_id": "",
-            "heading": "",
-            "heading_level": "h3",
-            "section_content": "",
-            "section_button_text": "",
-            "section_button_link": "",
-            "section_image_position": "row",
-            "background_color": "#ffffff",
-            "button_background_color": "#000000",
-            "button_text_color": "#ffffff"
-          }
-        },
         "faq_section_mCcXN9": {
           "type": "faq_section",
           "settings": {
@@ -279,8 +249,6 @@
         "content_hub_html_Y9YhRn",
         "content_quote_BGKXmq",
         "collection_slideshow_heyG7t",
-        "image_teaser_Urracj",
-        "image_teaser_iEdJxD",
         "faq_section_mCcXN9"
       ],
       "settings": {
