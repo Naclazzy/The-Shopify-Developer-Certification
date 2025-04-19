@@ -1,0 +1,218 @@
+{{ 'content-hub-base.css' | asset_url | stylesheet_tag }}
+{{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
+
+{% if section.settings.enable_slider %}
+  {{ 'vendor-swiper.css' | asset_url | stylesheet_tag }}
+
+  {{ 'component-hub-slideshow.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'content-hub-layout.js' | asset_url }}" defer></script>
+  <script src="{{ 'vendor-swiper.js' | asset_url }}" defer></script>
+  <script src="{{ 'component-hub-slideshow.js' | asset_url }}" defer></script>
+{% endif %}
+
+{%- capture rgb -%}
+  {{ section.settings.color | color_to_rgb }}{%- endcapture -%}
+{%- assign tail = section.settings.alpha | prepend: ', ' | append: ')' -%}
+{%- assign rgba = rgb | replace: 'rgb', 'rgba' | replace: ')', tail -%}
+
+<section>
+  {%- if article.image -%}
+    <div class="article-template__container--content page-width-desktop">
+      {% render 'content-hub-header', block: block, article: article %}
+    </div>
+  {%- endif -%}
+
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when '@app' -%}
+      <div class="page-width page-width--narrow">
+        {% render block %}
+      </div>
+    {%- endcase -%}
+  {%- endfor -%}
+</section>
+
+<style>
+  .article-template__hero::before {
+    background-color: {{ rgba }};
+  }
+
+  @media screen and (min-width: 990px) {
+    .article-template__title--bottom {
+      color: {{ section.settings.text_color }};
+    }
+  }
+
+  .banner__button:hover,
+  .teaser-item__link:hover {
+    background-color: {{ section.settings.button_hover_background_color }} !important;
+    color: {{ section.settings.button_hover_text_color }};
+  }
+
+  {% if section.settings.sections_margin %}
+    @media screen and (min-width: 990px) {
+      .article-template__section--inner {
+        margin-top: 2rem;
+      }
+
+      .article-template__section--inner:not(:first-child),
+      .article-template__section--fw {
+        margin-top: {{ section.settings.sections_margin }}px;
+        margin-bottom: {{ section.settings.sections_margin }}px;
+      }
+    }
+  {% endif %}
+
+
+    {% if section.settings.border_radius == "no" %}
+    .article-template__hero::before,
+    .article-template__hero,
+    .article-template-image--border,
+    .teaser,
+    .content-steps__step img,
+    .content-hub-banner,
+    .content-hub-banner img,
+    .teaser-item__image,
+    .teaser-item img,
+    .swiper-slide__link,
+    .swiper-slide__link::before,
+    .swiper-slide__link img,
+    .summary-paragraph,
+    .summary,
+    .content-hub-banner__image img {
+        border-radius: 0 !important;
+    }
+  {% else %}
+
+  .article-template__hero::before,
+    .article-template__hero,
+    .article-template-image--border,
+    .content-steps__step img,
+    .content-hub-banner,
+    .content-hub-banner img,
+    .content-hub-banner__button,
+    .content-hub-faq button .icon,
+    .teaser,
+    .teaser-item__image,
+    .teaser-item img,
+    .swiper-slide__link,
+    .swiper-slide__link::before,
+    .swiper-slide__link img,
+    .summary-paragraph,
+    .summary,
+    .content-hub-banner__image img {
+       /* border-radius: 16px !important; */
+    }
+  {% endif  %}
+</style>
+
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+      "@type": "Article",
+      "articleBody": {{ article.content | strip_html | json }},
+  "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": {{ request.origin | append: page.url | json }}
+  },
+  "headline": {{ article.title | json }},
+  {% if article.excerpt != blank %}
+    "description": {{ article.excerpt | strip_html | json }},
+  {% endif %}
+  "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+  "dateCreated": {{ article.created_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+  "author": {
+        "@type": "Person",
+        "name": {{ article.author | json }}
+  },
+  "publisher": {
+        "@type": "Organization",
+        "name": {{ shop.name | json }}
+  }
+  }
+</script>
+
+{% schema %}
+  {
+    "class": "article-template",
+    "name": "Article Settings",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_slider",
+        "label": "Enable Slider",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "sections_margin",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Desktop Section Margins",
+        "default": 100
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Hero Background Color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Hero Text Color",
+        "default": "#fff"
+      }, {
+        "type": "range",
+        "id": "alpha",
+        "label": "Hero Background Color Opacity",
+        "min": 0,
+        "max": 1,
+        "step": 0.1,
+        "default": 0.3
+      }, {
+        "type": "color",
+        "id": "button_hover_background_color",
+        "label": "Button Hover Background Color",
+        "default": "#b8967a"
+      }, {
+        "type": "color",
+        "id": "button_hover_text_color",
+        "label": "Button Hover Text Color",
+        "default": "#fff"
+      },
+           {
+        "type": "range",
+        "id": "button_border_radius",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Button Border Radius",
+        "default": 0
+      },
+      {
+        "type": "select",
+        "id": "border_radius",
+        "label": "Border Radius",
+        "default": "yes",
+        "options": [
+          {
+            "value": "yes",
+            "label": "Rounded borders"
+          }, {
+            "value": "no",
+            "label": "Rectangular borders"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "@app"
+      }
+    ]
+  }
+{% endschema %}
