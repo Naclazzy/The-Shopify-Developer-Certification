@@ -1,0 +1,52 @@
+{{ 'component-image-teaser.css' | asset_url | stylesheet_tag }}
+
+<section class="article-template__section--inner" id="{{ block.settings.section_id }}">
+  {% liquid
+    assign heading_level = block.settings.heading_level
+    assign heading = block.settings.heading
+    assign section_content = block.settings.section_content
+    assign section_button_text = block.settings.section_button_text
+    assign section_button_link = block.settings.section_button_link
+    assign section_image = block.settings.section_image
+    assign section_image_position = block.settings.section_image_position
+    assign section_background_color = block.settings.background_color
+    assign button_background_color = block.settings.button_background_color
+    assign button_text_color = block.settings.button_text_color
+  %}
+
+  <div class="content-hub-banner" style="background-color: {{ section_background_color }}">
+    {% if section_image %}
+      <div class="content-hub-banner__image">
+        {{ section_image | image_url: width: medium | image_tag }}
+      </div>
+    {% endif %}
+
+    <div class="content-hub-banner__content">
+      <div class="content-hub-banner__wrapper">
+        {% render 'headings', headingLevel: heading_level, heading: heading %}
+        {{ section_content }}
+
+        {% if section_button_link %}
+          <a class="content-hub-banner__button" href="{{ section_button_link }}">{{ section_button_text }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+    .content-hub-banner {
+      flex-direction: {{ section_image_position }};
+      background-color: {{ section_background_color }};
+    }
+    {% if section_image_position == "row-reverse" %}
+    .content-hub-banner__image img {
+      border-radius: 0 16px 16px 0;
+    }
+  {% endif %}
+
+    .content-hub-banner__button {
+      background-color: {{ button_background_color }};
+      color: {{ button_text_color }};
+    }
+</style>

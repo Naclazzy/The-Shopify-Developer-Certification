@@ -1,0 +1,65 @@
+{{ 'component-teaser.css' | asset_url | stylesheet_tag }}
+
+{% liquid
+  assign section_id = block.settings.section_id
+  assign section_background_color = block.settings.background_color
+  assign heading_level = block.settings.heading_level
+  assign heading = block.settings.heading
+  assign image = block.settings.image
+  assign newsletter = block.settings.newsletter
+  assign description = block.settings.description
+  assign button_link = block.settings.link
+  assign button_text = block.settings.link_text
+  assign full_width_whitepaper = block.settings.full_width_whitepaper
+  assign heading_color = block.settings.heading_color
+  assign text_color = block.settings.text_color
+
+  if full_width_whitepaper
+    assign article_section_class = 'article-template__section__inner--fw'
+    assign teaser_class = 'teaser-item--fw'
+    assign whitepaper_image = image | image_url: width: 500
+  else
+    assign article_section_class = 'article-template__section--inner'
+    assign teaser_class = 'teaser-item--col'
+    assign whitepaper_image = image | image_url: width: 1200
+  endif
+%}
+
+<div
+  class="teaser {{ article_section_class }}"
+  id="{{ section_id }}"
+  style="background-color: {{ section_background_color }};"
+>
+  <div class="teaser-item {{ teaser_class }}">
+    <div class="teaser-item__content">
+      {% render 'headings', headingLevel: heading_level, heading: heading %}
+      {{ description }}
+      {{ newsletter }}
+      <!-- <a class="teaser-item__link" href="{{ button_link }}">{{ button_text }}</a> -->
+    </div>
+    <div class="teaser-item__image">
+      <img
+        src="{{ whitepaper_image }}"
+        alt="{{ whitepaper_image.alt }}"
+        loading="lazy"
+        width="{{ whitepaper_image.width }}"
+        height="{{ whitepaper_image.height }}"
+      >
+    </div>
+  </div>
+</div>
+
+<style>
+        #{{ section_id }} .teaser-item__content h1,
+        #{{ section_id }} .teaser-item__content h2,
+        #{{ section_id }} .teaser-item__content h3,
+        #{{ section_id }} .teaser-item__content h4,
+        #{{ section_id }} .teaser-item__content h5,
+        #{{ section_id }} .teaser-item__content h6 {
+          color: {{ heading_color }};
+        }
+
+        #{{ section_id }} .teaser-item__content p {
+          color: {{ text_color }};
+        }
+</style>

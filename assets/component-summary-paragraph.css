@@ -1,0 +1,32 @@
+.summary-paragraph {
+  background-color: #f4f2f0;
+  padding: 25px 30px;
+  border-left: 5px solid #000;
+  border-radius: 0 16px 16px 0;
+}
+
+.summary-paragraph h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: var(--font-heading-family);
+}
+
+.summary-paragraph p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  font-family: var(--font-body-family);
+}
+
+@media screen and (max-width: 750px) {
+  .summary-paragraph {
+    padding: 20px 15px;
+  }
+
+  .summary-paragraph h3,
+  .summary-paragraph p {
+    font-size: 15px;
+  }
+}

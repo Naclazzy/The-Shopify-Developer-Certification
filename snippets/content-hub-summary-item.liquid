@@ -1,0 +1,14 @@
+{% if topic != blank %}
+  <div class="summary-item">
+    <h3 style="color: {{ heading_color }}">{{ topic }}</h3>
+    <p style="color: {{ text_color }}">
+      {{ description }}
+    </p>
+    {% if link != blank %}
+      <a class="summary-item__link" href="{{ link }}" style="color: {{ link_color }};">
+        {{ link_text }}
+        <img src="{{ 'long-arrow-down.svg' | asset_url }}" alt="arrow-down" loading="eager" height="16" width="16">
+      </a>
+    {% endif %}
+  </div>
+{% endif %}

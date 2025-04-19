@@ -1,0 +1,32 @@
+<section class="article-template__section--inner content-hub-content" id="{{ block.settings.section_id }}">
+  {% liquid
+    assign heading = block.settings.heading
+    assign heading_color = block.settings.heading_color
+    assign heading_level = block.settings.heading_level
+
+    assign sub_heading = block.settings.sub_heading
+    assign sub_heading_color = block.settings.sub_heading_color
+    assign sub_heading_level = block.settings.sub_heading_level
+
+    assign text_color = block.settings.text_color
+  %}
+
+  {% render 'headings', headingLevel: heading_level, heading: heading, color: heading_color %}
+  {% render 'headings', headingLevel: sub_heading_level, heading: sub_heading, color: sub_heading_color %}
+
+  {{ block.settings.section_content }}
+</section>
+
+<style>
+  .content-hub-content p,
+  .content-hub-content li,
+  .content-hub-content a,
+  .content-hub-content h1,
+  .content-hub-content h2,
+  .content-hub-content h3,
+  .content-hub-content h4,
+  .content-hub-content h5,
+  .content-hub-content h6 {
+    color: {{ text_color }};
+  }
+</style>

@@ -1,0 +1,65 @@
+{{ 'component-content-steps.css' | asset_url | stylesheet_tag }}
+
+<section class="article-template__section--inner" id="{{ block.settings.section_id }}">
+  {% assign headingLevel = block.settings.heading_level %}
+  {% assign heading = block.settings.heading %}
+  {% assign introText = block.settings.intro_text %}
+
+  <div class="content-steps">
+    {% render 'headings', headingLevel: headingLevel, heading: heading %}
+  </div>
+
+  {% if introText != blank %}
+    <div class="content-steps__intro">
+      {{ introText }}
+    </div>
+  {% endif %}
+
+  {% if block.settings.step_image_1 %}
+    {% render 'content-hub-content-steps-item',
+            step_image: block.settings.step_image_1,
+            step_title: block.settings.step_title_1,
+            step_description: block.settings.step_description_1
+    %}
+  {% endif %}
+
+  {% if block.settings.step_image_2 %}
+    {% render 'content-hub-content-steps-item',
+            step_image: block.settings.step_image_2,
+            step_title: block.settings.step_title_2,
+            step_description: block.settings.step_description_2
+    %}
+  {% endif %}
+
+  {% if block.settings.step_image_3 %}
+    {% render 'content-hub-content-steps-item',
+            step_image: block.settings.step_image_3,
+            step_title: block.settings.step_title_3,
+            step_description: block.settings.step_description_3
+    %}
+  {% endif %}
+
+  {% if block.settings.step_image_4 %}
+    {% render 'content-hub-content-steps-item',
+            step_image: block.settings.step_image_4,
+            step_title: block.settings.step_title_4,
+            step_description: block.settings.step_description_4
+    %}
+  {% endif %}
+
+  {% if block.settings.step_image_5 %}
+    {% render 'content-hub-content-steps-item',
+            step_image: block.settings.step_image_5,
+            step_title: block.settings.step_title_5,
+            step_description: block.settings.step_description_5
+    %}
+  {% endif %}
+
+  {% if block.settings.step_image_6 %}
+    {% render 'content-hub-content-steps-item',
+            step_image: block.settings.step_image_6,
+            step_title: block.settings.step_title_6,
+            step_description: block.settings.step_description_6
+    %}
+  {% endif %}
+</section>

@@ -1,0 +1,10 @@
+{%- if article.image -%}
+  <div class="article-template__hero-container">
+    <div
+            class="article-template__hero article-template__hero-medium relative"
+            style="background-image: url({{ article.image | image_url: width: 1100 }});"
+    >
+    </div>
+    {% render 'content-hub-header-title', title: article.title %}
+  </div>
+{%- endif -%}

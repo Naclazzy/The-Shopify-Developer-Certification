@@ -1,0 +1,31 @@
+<section class="article-template__section--inner" id="{{ block.settings.section_id }}">
+  {% liquid
+    assign section_image_url = block.settings.section_image_url
+    assign section_image = block.settings.section_image
+    assign section_image_new_tab_boolean = block.settings.section_image_url_new_tab
+    assign section_image_caption = block.settings.section_image_caption
+    assign section_image_text_alignment = block.settings.selection_image_horizonzal_text_alignment
+  %}
+
+  {% if section_image_new_tab_boolean != true %}
+    {% assign section_image_new_tab = 'target="_blank"' %}
+  {% else %}
+    {% assign section_image_new_tab = '' %}
+  {% endif %}
+
+  {% if section_image_url %}
+    <a href="{{ section_image_url }}" {{ section_image_new_tab }}>
+      {% render 'content-hub-image',
+        section_image: section_image,
+        caption: section_image_caption,
+        text_alignment: section_image_text_alignment
+      %}
+    </a>
+  {% else %}
+    {% render 'content-hub-image',
+      section_image: section_image,
+      caption: section_image_caption,
+      text_alignment: section_image_text_alignment
+    %}
+  {% endif %}
+</section>

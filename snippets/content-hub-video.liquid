@@ -1,0 +1,32 @@
+{{ 'component-content-hub-video.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'video-poster.js' | asset_url }}" defer></script>
+
+<section class="article-template__section--inner" id="{{ block.settings.section_id }}">
+  <div class="responsive-iframe-container content-hub-video">
+    {%- if block.settings.video_url.type == 'youtube' -%}
+      {{
+        block.settings.video_poster_image
+        | image_url: width: 1240
+        | image_tag: loading: 'lazy', sizes: sizes, widths: '275, 550, 710, 1420', class: 'video-poster'
+      }}
+      <iframe
+        src="https://www.youtube.com/embed/{{ block.settings.video_url.id }}?enablejsapi=1"
+        class="js-youtube responsive-iframe-container__iframe"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+      ></iframe>
+    {%- else -%}
+      {{
+        block.settings.video_poster_image
+        | image_url: width: 1240
+        | image_tag: loading: 'lazy', sizes: sizes, widths: '275, 550, 710, 1420', class: 'video-poster'
+      }}
+      <iframe
+        src="https://player.vimeo.com/video/{{ block.settings.video_url.id }}"
+        class="js-vimeo responsive-iframe-container__iframe"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+      ></iframe>
+    {%- endif -%}
+  </div>
+</section>

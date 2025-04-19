@@ -1,0 +1,45 @@
+<section class="article-template__section--inner">
+  {% render 'headings',
+    class: 'component-hub-slideshow__heading',
+    headingLevel: block.settings.heading_level,
+    heading: block.settings.heading,
+    color: '#000'
+  %}
+
+  <div class="swiper component-hub-slideshow" id="{{ block.settings.section_id }}">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% for collection in block.settings.collection_list %}
+        <div class="swiper-slide">
+          <a class="swiper-slide__link" href="{{ collection.url }}">
+            <img
+              src="{{ collection.featured_image | image_url: width: 450 }}"
+              alt="{{ product.title }} image"
+              loading="lazy"
+              width="{{ collection.featured_image.width }}"
+              height="{{ collection.featured_image.height }}"
+            >
+            <div class="component-hub-slideshow__item">
+              <p class="component-hub-slideshow__title" style="color: {{ block.settings.text_color }}">
+                {{ collection.title }}
+              </p>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+{% if block.settings.show_image_overlay == false %}
+  <style>
+    #shopify-section-{{ block.id }} .swiper-slide__link::before {
+      background: none
+    }
+  </style>
+{% endif %}

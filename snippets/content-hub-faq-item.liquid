@@ -1,0 +1,15 @@
+{% if faq_question != blank %}
+<div class="faq-item">
+  <button aria-expanded="false">
+    <span class="faq-title" style="color: {{ question_color }}">
+      {{ faq_question }}
+    </span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="faq-content">
+    <p style="color: {{ answer_color }}">
+      {{ faq_answer }}
+    </p>
+  </div>
+</div>
+{% endif %}

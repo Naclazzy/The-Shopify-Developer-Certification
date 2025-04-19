@@ -1,0 +1,54 @@
+{{ 'component-round-image-teaser.css' | asset_url | stylesheet_tag }}
+{% assign section_background_color = block.settings.round_image_teaser_background_color %}
+
+<section class="article-template__section--inner" id="{{ block.settings.round_image_teaser_section_id }}">
+  <div class="round-image-teaser" style="background-color: {{ section_background_color }}">
+    {% if block.settings.round_image_teaser_1 %}
+      {% render 'content-hub-round-image-teaser-item',
+       title: block.settings.round_image_teaser_title_1,
+       color: block.settings.round_image_teaser_title_color,
+       image: block.settings.round_image_teaser_1,
+       url: block.settings.round_image_teaser_link_1 %}
+    {% endif %}
+
+    {% if block.settings.round_image_teaser_2 %}
+      {% render 'content-hub-round-image-teaser-item', 
+       title: block.settings.round_image_teaser_title_2,
+       color: block.settings.round_image_teaser_title_color,
+       image: block.settings.round_image_teaser_2,
+       url: block.settings.round_image_teaser_link_2 %}
+    {% endif %}
+
+    {% if block.settings.round_image_teaser_3 %}
+      {% render 'content-hub-round-image-teaser-item', 
+       title: block.settings.round_image_teaser_title_3,
+       color: block.settings.round_image_teaser_title_color,
+       image: block.settings.round_image_teaser_3,
+       url: block.settings.round_image_teaser_link_3 %}
+    {% endif %}
+
+    {% if block.settings.round_image_teaser_4 %}
+      {% render 'content-hub-round-image-teaser-item',
+       title: block.settings.round_image_teaser_title_4,
+       color: block.settings.round_image_teaser_title_color,
+       image: block.settings.round_image_teaser_4,
+       url: block.settings.round_image_teaser_link_4 %}
+    {% endif %}
+
+    {% if block.settings.round_image_teaser_5 %}
+      {% render 'content-hub-round-image-teaser-item',
+       title: block.settings.round_image_teaser_title_5,
+       color: block.settings.round_image_teaser_title_color,
+       image: block.settings.round_image_teaser_5,
+       url: block.settings.round_image_teaser_link_5 %}
+    {% endif %}
+
+    {% if block.settings.round_image_teaser_6 %}
+      {% render 'content-hub-round-image-teaser-item', 
+       title: block.settings.round_image_teaser_title_6,
+       color: block.settings.round_image_teaser_title_color,
+       image: block.settings.round_image_teaser_6,
+       url: block.settings.round_image_teaser_link_6 %}
+    {% endif %}
+  </div>
+</section>

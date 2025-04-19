@@ -1,0 +1,15 @@
+{% if url != blank %}
+  <a href="{{ url }}" class="round-image-teaser__wrapper">
+    {% if image %}
+      {{ image | image_url: width: 300 | image_tag }}
+      <p style="color: {{ color }}">{{ title }}</p>
+    {% endif %}
+  </a>
+{% else %}
+  <div class="round-image-teaser__wrapper">
+    {% if image %}
+      {{ image | image_url: width: 300 | image_tag }}
+      <p style="color: {{ color }}">{{ title }}</p>
+    {% endif %}
+  </div>
+{% endif %}

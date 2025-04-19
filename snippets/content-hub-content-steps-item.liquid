@@ -1,0 +1,14 @@
+<div class="content-steps__step">
+    {% if step_image != blank %}
+        <div class="content-steps__step-image">
+            {{ step_image | image_url: width: 600 | image_tag }}
+        </div>
+    {% endif %}
+
+    <div class="content-steps__step-content">
+        <h3 class="content-steps__step-title">{{ step_title }}</h3>
+        <div class="content-steps__step-description">
+            {{ step_description }}
+        </div>
+    </div>
+</div>

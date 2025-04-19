@@ -1,0 +1,65 @@
+{{ 'component-summary.css' | asset_url | stylesheet_tag }}
+
+{% liquid
+  assign section_id = block.settings.section_id
+  assign section_background_color = block.settings.background_color
+  assign heading_level = block.settings.heading_level
+  assign heading = block.settings.summary_heading
+  assign heading_color = block.settings.heading_color
+%}
+
+<div
+  class="summary article-template__section--inner"
+  id="{{ section_id }}"
+  style="background-color: {{ section_background_color }};"
+>
+  {% render 'headings', headingLevel: heading_level, heading: heading, color: heading_color %}
+
+  {% if block.settings.topic_1 %}
+    {% render 'content-hub-summary-item',
+      topic: block.settings.topic_1,
+      description: block.settings.topic_1_description,
+      link: block.settings.topic_1_link,
+      link_text: block.settings.topic_1_link_text,
+      heading_color: block.settings.topic_1_heading_color,
+      text_color: block.settings.topic_1_text_color,
+      link_color: block.settings.topic_1_link_color
+    %}
+  {% endif %}
+
+  {% if block.settings.topic_2 %}
+    {% render 'content-hub-summary-item',
+      topic: block.settings.topic_2,
+      description: block.settings.topic_2_description,
+      link: block.settings.topic_2_link,
+      link_text: block.settings.topic_2_link_text,
+      heading_color: block.settings.topic_2_heading_color,
+      text_color: block.settings.topic_2_text_color,
+      link_color: block.settings.topic_2_link_color
+    %}
+  {% endif %}
+
+  {% if block.settings.topic_3 %}
+    {% render 'content-hub-summary-item',
+      topic: block.settings.topic_3,
+      description: block.settings.topic_3_description,
+      link: block.settings.topic_3_link,
+      link_text: block.settings.topic_3_link_text,
+      heading_color: block.settings.topic_3_heading_color,
+      text_color: block.settings.topic_3_text_color,
+      link_color: block.settings.topic_3_link_color
+    %}
+  {% endif %}
+
+  {% if block.settings.topic_4 %}
+    {% render 'content-hub-summary-item',
+      topic: block.settings.topic_4,
+      description: block.settings.topic_4_description,
+      link: block.settings.topic_4_link,
+      link_text: block.settings.topic_4_link_text,
+      heading_color: block.settings.topic_4_heading_color,
+      text_color: block.settings.topic_4_text_color,
+      link_color: block.settings.topic_4_link_color
+    %}
+  {% endif %}
+</div>

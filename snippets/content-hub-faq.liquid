@@ -1,0 +1,120 @@
+{{ 'component-faq.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'component-faq.js' | asset_url }}" defer></script>
+
+<section class="article-template__section--inner">
+  <h2 class="faq-main-heading" style="color: {{ block.settings.heading_color }}">{{ block.settings.faq_heading }}</h2>
+  <p class="faq-title" style="color: {{ block.settings.heading_color }}">{{ block.settings.faq_intro }}</p>
+
+  <div class="content-hub-faq" id="{{ block.settings.section_id }}">
+    {% if block.settings.faq_question_1 %}
+      {% render 'content-hub-faq-item',
+        question_color: block.settings.question_color_1,
+        answer_color: block.settings.answer_color_1,
+        faq_question: block.settings.faq_question_1,
+        faq_answer: block.settings.faq_answer_1
+      %}
+    {% endif %}
+
+    {% if block.settings.faq_question_2 %}
+      {% render 'content-hub-faq-item',
+        question_color: block.settings.question_color_2,
+        answer_color: block.settings.answer_color_2,
+        faq_question: block.settings.faq_question_2,
+        faq_answer: block.settings.faq_answer_2
+      %}
+    {% endif %}
+
+    {% if block.settings.faq_question_3 %}
+      {% render 'content-hub-faq-item',
+        question_color: block.settings.question_color_3,
+        answer_color: block.settings.answer_color_3,
+        faq_question: block.settings.faq_question_3,
+        faq_answer: block.settings.faq_answer_3
+      %}
+    {% endif %}
+
+    {% if block.settings.faq_question_4 %}
+      {% render 'content-hub-faq-item',
+        question_color: block.settings.question_color_4,
+        answer_color: block.settings.answer_color_4,
+        faq_question: block.settings.faq_question_4,
+        faq_answer: block.settings.faq_answer_4
+      %}
+    {% endif %}
+
+    {% if block.settings.faq_question_5 %}
+      {% render 'content-hub-faq-item',
+        question_color: block.settings.question_color_5,
+        answer_color: block.settings.answer_color_5,
+        faq_question: block.settings.faq_question_5,
+        faq_answer: block.settings.faq_answer_5
+      %}
+    {% endif %}
+
+    {% if block.settings.faq_question_6 %}
+      {% render 'content-hub-faq-item',
+        question_color: block.settings.question_color_6,
+        answer_color: block.settings.answer_color_6,
+        faq_question: block.settings.faq_question_6,
+        faq_answer: block.settings.faq_answer_6
+      %}
+    {% endif %}
+  </div>
+</section>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "{{ block.settings.faq_question_1 }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ block.settings.faq_answer_1 }}"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "{{ block.settings.faq_question_2 }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ block.settings.faq_answer_2 }}"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "{{ block.settings.faq_question_3 }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ block.settings.faq_answer_3 }}"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "{{ block.settings.faq_question_4 }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ block.settings.faq_answer_4 }}"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "{{ block.settings.faq_question_5 }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ block.settings.faq_answer_5 }}"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "{{ block.settings.faq_question_6 }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ block.settings.faq_answer_6 }}"
+        }
+      }
+    ]
+  }
+</script>
