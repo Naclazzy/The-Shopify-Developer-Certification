@@ -201,7 +201,7 @@
             "collection_list": [],
             "heading": "Heading",
             "heading_level": "h3",
-            "text_color": "#fff"
+            "text_color": "#ffffff"
           }
         },
         "image_teaser_Urracj": {
@@ -214,9 +214,9 @@
             "section_button_text": "",
             "section_button_link": "",
             "section_image_position": "row",
-            "background_color": "#fff",
-            "button_background_color": "#000",
-            "button_text_color": "#fff"
+            "background_color": "#ffffff",
+            "button_background_color": "#000000",
+            "button_text_color": "#ffffff"
           }
         },
         "image_teaser_iEdJxD": {
@@ -229,9 +229,42 @@
             "section_button_text": "",
             "section_button_link": "",
             "section_image_position": "row",
-            "background_color": "#fff",
-            "button_background_color": "#000",
-            "button_text_color": "#fff"
+            "background_color": "#ffffff",
+            "button_background_color": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "faq_section_mCcXN9": {
+          "type": "faq_section",
+          "settings": {
+            "section_id": "",
+            "faq_heading": "FAQ",
+            "faq_intro": "",
+            "heading_color": "#000000",
+            "faq_question_1": "",
+            "faq_answer_1": "",
+            "question_color_1": "#000000",
+            "answer_color_1": "#000000",
+            "faq_question_2": "",
+            "faq_answer_2": "",
+            "question_color_2": "#000000",
+            "answer_color_2": "#000000",
+            "faq_question_3": "",
+            "faq_answer_3": "",
+            "question_color_3": "#000000",
+            "answer_color_3": "#000000",
+            "faq_question_4": "",
+            "faq_answer_4": "",
+            "question_color_4": "#000000",
+            "answer_color_4": "#000000",
+            "faq_question_5": "",
+            "faq_answer_5": "",
+            "question_color_5": "#000000",
+            "answer_color_5": "#000000",
+            "faq_question_6": "",
+            "faq_answer_6": "",
+            "question_color_6": "#000000",
+            "answer_color_6": "#000000"
           }
         }
       },
@@ -247,7 +280,8 @@
         "content_quote_BGKXmq",
         "collection_slideshow_heyG7t",
         "image_teaser_Urracj",
-        "image_teaser_iEdJxD"
+        "image_teaser_iEdJxD",
+        "faq_section_mCcXN9"
       ],
       "settings": {
         "title": "Menu",
