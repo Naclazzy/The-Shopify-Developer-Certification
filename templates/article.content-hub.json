@@ -1,0 +1,211 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "content-hub-article",
+      "settings": {
+        "enable_slider": true,
+        "sections_margin": 100,
+        "color": "#000000",
+        "text_color": "#ffffff",
+        "alpha": 0.2,
+        "button_hover_background_color": "#b8967a",
+        "button_hover_text_color": "#ffffff",
+        "button_border_radius": 0,
+        "border_radius": "yes"
+      }
+    },
+    "650da89c-fd0d-41f7-992a-e2c3f00acb3a": {
+      "type": "content-hub",
+      "blocks": {
+        "66d44e13-74db-40a5-9212-54941910a841": {
+          "type": "content_hub_summary",
+          "settings": {
+            "section_id": "",
+            "summary_heading": "Summary",
+            "heading_level": "h2",
+            "heading_color": "#000000",
+            "background_color": "#e2d9c3",
+            "topic_1": "Topic 1",
+            "topic_1_description": "Topic Description 1",
+            "topic_1_link": "#content-section",
+            "topic_1_link_text": "Mehr erfahren",
+            "topic_1_heading_color": "#000000",
+            "topic_1_text_color": "#000000",
+            "topic_1_link_color": "#000000",
+            "topic_2": "Topic 2",
+            "topic_2_description": "Topic Description 2",
+            "topic_2_link": "#content-video",
+            "topic_2_link_text": "Mehr erfahren",
+            "topic_2_heading_color": "#000000",
+            "topic_2_text_color": "#000000",
+            "topic_2_link_color": "#000000",
+            "topic_3": "Topic 3",
+            "topic_3_description": "Topic Description 3",
+            "topic_3_link": "",
+            "topic_3_link_text": "Mehr erfahren",
+            "topic_3_heading_color": "#000000",
+            "topic_3_text_color": "#000000",
+            "topic_3_link_color": "#000000",
+            "topic_4": "",
+            "topic_4_description": "",
+            "topic_4_link": "",
+            "topic_4_link_text": "",
+            "topic_4_heading_color": "#000000",
+            "topic_4_text_color": "#000000",
+            "topic_4_link_color": "#000000"
+          }
+        },
+        "7f7a9768-0730-4958-9df4-2806291f5742": {
+          "type": "content",
+          "settings": {
+            "section_id": "content-section",
+            "heading": "Content Section",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "Sub Heading",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "section_content": "<p>Section Content</p>",
+            "text_color": "#000000"
+          }
+        },
+        "9158f1ae-7fdc-4f05-9a57-4e479f891249": {
+          "type": "summary_paragraph",
+          "settings": {
+            "section_id": "",
+            "heading": "Summary Paragraph",
+            "description": "<p>Description</p>",
+            "background_color": "#ffffff",
+            "heading_color": "#020202",
+            "text_color": "#020202",
+            "line_color": "#ceb882"
+          }
+        },
+        "529a82bb-e813-48cf-afdd-e1dc32ea9e5c": {
+          "type": "content_steps",
+          "settings": {
+            "section_id": "",
+            "heading": "Content Steps",
+            "heading_level": "h3",
+            "intro_text": "<p>Intro Text</p>",
+            "step_title_1": "Step title 1",
+            "step_description_1": "<p>Step Description 1</p>",
+            "step_title_2": "Step title 2",
+            "step_description_2": "<p>Step description 2</p>",
+            "step_title_3": "Step title 3",
+            "step_description_3": "<p>Step description 3</p>",
+            "step_title_4": "",
+            "step_description_4": "",
+            "step_title_5": "",
+            "step_description_5": "",
+            "step_title_6": "",
+            "step_description_6": ""
+          }
+        },
+        "17449610-2322-40d3-8b23-c68c03ed2ed3": {
+          "type": "product_slideshow",
+          "settings": {
+            "show_image_overlay": true,
+            "section_id": "product-slideshow-1",
+            "product_list": [
+              "ainara-oval-ring",
+              "ainara-round-halo-ring",
+              "ainara-round-micro-ring",
+              "ainara-round-ring",
+              "alag-ring",
+              "ananya-duet-kreolen",
+              "ananya-duet-ohrstecker",
+              "ananya-emerald-duet-anhaenger"
+            ],
+            "heading": "Product Slideshow",
+            "heading_level": "h3",
+            "text_color": "#000000"
+          }
+        },
+        "ffd8ea4e-0bf6-4a61-994b-da05704b77f2": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "section_content": "",
+            "text_color": "#000000"
+          }
+        },
+        "ec494f11-b58f-4ade-abda-31ca1a77aa07": {
+          "type": "faq_section",
+          "settings": {
+            "section_id": "",
+            "faq_heading": "FAQ Heading",
+            "faq_intro": "FAQ Intro",
+            "heading_color": "#000000",
+            "faq_question_1": "FAQ Question 1",
+            "faq_answer_1": "Answer 1",
+            "question_color_1": "#020202",
+            "answer_color_1": "#000000",
+            "faq_question_2": "FAQ Question 2",
+            "faq_answer_2": "FAQ Answer 2",
+            "question_color_2": "#000000",
+            "answer_color_2": "#000000",
+            "faq_question_3": "",
+            "faq_answer_3": "",
+            "question_color_3": "#000000",
+            "answer_color_3": "#000000",
+            "faq_question_4": "",
+            "faq_answer_4": "",
+            "question_color_4": "#000000",
+            "answer_color_4": "#000000",
+            "faq_question_5": "",
+            "faq_answer_5": "",
+            "question_color_5": "#000000",
+            "answer_color_5": "#000000",
+            "faq_question_6": "",
+            "faq_answer_6": "",
+            "question_color_6": "#000000",
+            "answer_color_6": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "66d44e13-74db-40a5-9212-54941910a841",
+        "7f7a9768-0730-4958-9df4-2806291f5742",
+        "9158f1ae-7fdc-4f05-9a57-4e479f891249",
+        "529a82bb-e813-48cf-afdd-e1dc32ea9e5c",
+        "17449610-2322-40d3-8b23-c68c03ed2ed3",
+        "ffd8ea4e-0bf6-4a61-994b-da05704b77f2",
+        "ec494f11-b58f-4ade-abda-31ca1a77aa07"
+      ],
+      "settings": {
+        "title": "Menu",
+        "title-color": "#000000",
+        "text-color": "#000000",
+        "active-color": "#000000",
+        "background-color": "#f4f2f0",
+        "sidebar-background-color": "#f4f2f0",
+        "sidebar-active-color": "#003a4b",
+        "table-of-contents-menu": "main-menu",
+        "link-top-spacing": 16,
+        "link-right-spacing": 0,
+        "link-bottom-spacing": 16,
+        "link-left-spacing": 12
+      }
+    }
+  },
+  "order": [
+    "main",
+    "650da89c-fd0d-41f7-992a-e2c3f00acb3a"
+  ]
+}
