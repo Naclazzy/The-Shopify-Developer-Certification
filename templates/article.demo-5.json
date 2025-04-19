@@ -1,0 +1,125 @@
+{
+  "sections": {
+    "main": {
+      "type": "content-hub-article",
+      "settings": {
+        "enable_slider": true,
+        "sections_margin": 30,
+        "color": "#000000",
+        "text_color": "#ffffff",
+        "alpha": 0.2,
+        "button_hover_background_color": "#b8967a",
+        "button_hover_text_color": "#ffffff"
+      }
+    },
+    "content_hub_001": {
+      "type": "content-hub",
+      "blocks": {
+        "content_is5vih": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "text_color": "#000000",
+            "section_content": "<p>Willkommen zu unserem großen DIY-Artikel für kreative Wohnideen. Hier zeigen wir dir Schritt für Schritt, wie du dein Zuhause individuell gestalten kannst.</p>"
+          }
+        },
+        "image_teaser_li9zhl": {
+          "type": "image_teaser",
+          "settings": {
+            "section_id": "",
+            "heading_level": "h3",
+            "section_image_position": "row",
+            "background_color": "#fff",
+            "button_background_color": "#000",
+            "button_text_color": "#fff",
+            "heading": "Dein DIY Einstieg",
+            "section_content": "<p>Starte direkt mit einfachen Projekten für dein Wohnzimmer.</p>",
+            "section_button_text": "Jetzt entdecken",
+            "section_button_link": "https://shopwise.de/diy-start",
+            "section_image": "shopify://shop_images/diy_start_teaser.jpg"
+          }
+        },
+        "faq_section_o97aq1": {
+          "type": "faq_section",
+          "settings": {
+            "section_id": "",
+            "heading_color": "#000000",
+            "question_color_1": "#000000",
+            "answer_color_1": "#000000",
+            "question_color_2": "#000000",
+            "answer_color_2": "#000000",
+            "question_color_3": "#000000",
+            "answer_color_3": "#000000",
+            "question_color_4": "#000000",
+            "answer_color_4": "#000000",
+            "question_color_5": "#000000",
+            "answer_color_5": "#000000",
+            "question_color_6": "#000000",
+            "answer_color_6": "#000000",
+            "faq_heading": "Häufige Fragen zum DIY",
+            "faq_intro": "Hier findest du Antworten auf häufige Fragen zum Selbermachen.",
+            "faq_question_1": "Was bedeutet DIY?",
+            "faq_answer_1": "DIY steht für \"Do it yourself\" – also Selbstgemachtes.",
+            "faq_question_2": "Welche Materialien brauche ich?",
+            "faq_answer_2": "Das kommt auf das Projekt an – wir zeigen dir alles im Artikel.",
+            "faq_question_3": "Wie viel Zeit muss ich einplanen?",
+            "faq_answer_3": "Die meisten Ideen dauern 15–60 Minuten.",
+            "faq_question_4": "Kann ich die Projekte mit Kindern machen?",
+            "faq_answer_4": "Viele – ja! Wir zeigen kindgerechte Varianten.",
+            "faq_question_5": "Muss ich dafür handwerklich begabt sein?",
+            "faq_answer_5": "Nein, die Anleitungen sind einfach gehalten.",
+            "faq_question_6": "Wo bekomme ich die Materialien her?",
+            "faq_answer_6": "Direkt im Bastelbedarf oder in unserem Online-Shop."
+          }
+        },
+        "content_hub_html_5x3sq5": {
+          "type": "content_hub_html",
+          "settings": {
+            "section_id": "",
+            "section_html": "<div class=\"custom-html-box\"><strong>Spare 10%</strong> auf alle DIY-Sets mit dem Code <code>DIY10</code></div>"
+          }
+        },
+        "content_quote_cxyeo6": {
+          "type": "content_quote",
+          "settings": {
+            "section_id": "",
+            "section_quote": "\"Selbermachen schafft nicht nur schöne Dinge, sondern auch schöne Erinnerungen.\"",
+            "section_quote_author": "Clara Holzmann"
+          }
+        }
+      },
+      "block_order": [
+        "content_is5vih",
+        "image_teaser_li9zhl",
+        "faq_section_o97aq1",
+        "content_hub_html_5x3sq5",
+        "content_quote_cxyeo6"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "title-color": "#000000",
+        "text-color": "#000000",
+        "active-color": "#000000",
+        "background-color": "#f4f2f0",
+        "sidebar-background-color": "#f4f2f0",
+        "sidebar-active-color": "#003a4b",
+        "table-of-contents-menu": "",
+        "link-top-spacing": 16,
+        "link-right-spacing": 5,
+        "link-bottom-spacing": 16,
+        "link-left-spacing": 12
+      }
+    }
+  },
+  "order": [
+    "main",
+    "content_hub_001"
+  ]
+}
