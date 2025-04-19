@@ -177,6 +177,62 @@
             "question_color_6": "#000000",
             "answer_color_6": "#000000"
           }
+        },
+        "content_hub_html_Y9YhRn": {
+          "type": "content_hub_html",
+          "settings": {
+            "section_id": "",
+            "section_html": ""
+          }
+        },
+        "content_quote_BGKXmq": {
+          "type": "content_quote",
+          "settings": {
+            "section_id": "",
+            "section_quote": "",
+            "section_quote_author": ""
+          }
+        },
+        "collection_slideshow_heyG7t": {
+          "type": "collection_slideshow",
+          "settings": {
+            "show_image_overlay": true,
+            "section_id": "",
+            "collection_list": [],
+            "heading": "Heading",
+            "heading_level": "h3",
+            "text_color": "#fff"
+          }
+        },
+        "image_teaser_Urracj": {
+          "type": "image_teaser",
+          "settings": {
+            "section_id": "",
+            "heading": "",
+            "heading_level": "h3",
+            "section_content": "",
+            "section_button_text": "",
+            "section_button_link": "",
+            "section_image_position": "row",
+            "background_color": "#fff",
+            "button_background_color": "#000",
+            "button_text_color": "#fff"
+          }
+        },
+        "image_teaser_iEdJxD": {
+          "type": "image_teaser",
+          "settings": {
+            "section_id": "",
+            "heading": "",
+            "heading_level": "h3",
+            "section_content": "",
+            "section_button_text": "",
+            "section_button_link": "",
+            "section_image_position": "row",
+            "background_color": "#fff",
+            "button_background_color": "#000",
+            "button_text_color": "#fff"
+          }
         }
       },
       "block_order": [
@@ -186,7 +242,12 @@
         "529a82bb-e813-48cf-afdd-e1dc32ea9e5c",
         "17449610-2322-40d3-8b23-c68c03ed2ed3",
         "ffd8ea4e-0bf6-4a61-994b-da05704b77f2",
-        "ec494f11-b58f-4ade-abda-31ca1a77aa07"
+        "ec494f11-b58f-4ade-abda-31ca1a77aa07",
+        "content_hub_html_Y9YhRn",
+        "content_quote_BGKXmq",
+        "collection_slideshow_heyG7t",
+        "image_teaser_Urracj",
+        "image_teaser_iEdJxD"
       ],
       "settings": {
         "title": "Menu",
