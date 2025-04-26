@@ -1,15 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "content-hub-article",
       "settings": {
         "enable_slider": true,
-        "sections_margin": 30,
+        "sections_margin": 71,
         "color": "#000000",
         "text_color": "#ffffff",
         "alpha": 0.2,
         "button_hover_background_color": "#b8967a",
-        "button_hover_text_color": "#ffffff"
+        "button_hover_text_color": "#ffffff",
+        "button_border_radius": 0,
+        "border_radius": "yes"
       }
     },
     "content_hub_001": {
@@ -25,8 +36,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "",
-            "text_color": "#000000",
-            "section_content": ""
+            "section_content": "",
+            "text_color": "#000000"
           }
         },
         "content_hub_summary_ctefus": {
@@ -77,8 +88,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "",
-            "text_color": "#000000",
-            "section_content": ""
+            "section_content": "",
+            "text_color": "#000000"
           }
         },
         "content_steps_pdfoh5": {
@@ -105,8 +116,8 @@
         "product_slideshow_ubxyi3": {
           "type": "product_slideshow",
           "settings": {
-            "section_id": "",
             "show_image_overlay": true,
+            "section_id": "",
             "product_list": [],
             "heading": "",
             "heading_level": "h2",
@@ -123,8 +134,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "",
-            "text_color": "#000000",
-            "section_content": ""
+            "section_content": "",
+            "text_color": "#000000"
           }
         },
         "content_steps_m8ds12": {
@@ -151,8 +162,8 @@
         "collection_slideshow_d8q30s": {
           "type": "collection_slideshow",
           "settings": {
-            "section_id": "",
             "show_image_overlay": true,
+            "section_id": "",
             "collection_list": [],
             "heading": "",
             "heading_level": "h2",
@@ -169,8 +180,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "",
-            "text_color": "#000000",
-            "section_content": ""
+            "section_content": "",
+            "text_color": "#000000"
           }
         },
         "content_steps_r9gmp5": {
@@ -198,33 +209,33 @@
           "type": "faq_section",
           "settings": {
             "section_id": "",
-            "heading_color": "#000000",
-            "question_color_1": "#000000",
-            "answer_color_1": "#000000",
-            "question_color_2": "#000000",
-            "answer_color_2": "#000000",
-            "question_color_3": "#000000",
-            "answer_color_3": "#000000",
-            "question_color_4": "#000000",
-            "answer_color_4": "#000000",
-            "question_color_5": "#000000",
-            "answer_color_5": "#000000",
-            "question_color_6": "#000000",
-            "answer_color_6": "#000000",
             "faq_heading": "Für welche Materialien sind die Silikonformen von Flothari geeignet?",
             "faq_intro": "<p>Du kannst die Gießformen für zahlreiche verschiedene Materialien nutzen. ...</p>",
+            "heading_color": "#000000",
             "faq_question_1": "Welche Frühlingsmotive bietet Flothari an?",
             "faq_answer_1": "Wir bieten dir eine große Auswahl an Hasen, Enten, Eiern, Blumen etc. ...",
+            "question_color_1": "#000000",
+            "answer_color_1": "#000000",
             "faq_question_2": "Kann ich die Silikonformen mehrmals benutzen?",
             "faq_answer_2": "Ja, sie sind robust und langlebig.",
+            "question_color_2": "#000000",
+            "answer_color_2": "#000000",
             "faq_question_3": "",
             "faq_answer_3": "",
+            "question_color_3": "#000000",
+            "answer_color_3": "#000000",
             "faq_question_4": "",
             "faq_answer_4": "",
+            "question_color_4": "#000000",
+            "answer_color_4": "#000000",
             "faq_question_5": "",
             "faq_answer_5": "",
+            "question_color_5": "#000000",
+            "answer_color_5": "#000000",
             "faq_question_6": "",
-            "faq_answer_6": ""
+            "faq_answer_6": "",
+            "question_color_6": "#000000",
+            "answer_color_6": "#000000"
           }
         },
         "content_t4i5iz": {
@@ -237,8 +248,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "",
-            "text_color": "#000000",
-            "section_content": ""
+            "section_content": "",
+            "text_color": "#000000"
           }
         }
       },
