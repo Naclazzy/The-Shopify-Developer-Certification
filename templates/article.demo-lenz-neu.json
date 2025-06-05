@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "main": {
+      "type": "content-hub-article",
+      "settings": {
+        "enable_slider": true,
+        "sections_margin": 30,
+        "color": "#000000",
+        "text_color": "#ffffff",
+        "alpha": 0.2,
+        "button_hover_background_color": "#b8967a",
+        "button_hover_text_color": "#ffffff"
+      }
+    },
+    "content_hub_001": {
+      "type": "content-hub",
+      "blocks": {
+        "content_tspb13": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "Mountainbike im Winter fahren: Tipps für eine angenehme & sichere Fahrt Mountainbiken im Winter: Ist das eine gute Idee?",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "text_color": "#000000",
+            "section_content": "<p>Du möchtest auch in den Wintermonaten nicht auf dein Mountainbike verzichten? Du kannst dir vorstellen, auch bei Schnee mit deinem Bike zu fahren? Möchtest du mit deinem Mountainbike im Winter fahren, dann spricht nichts dagegen: Im Winter Spaß an der frischen Luft zu haben, ist sogar mit zahlreichen Vorteilen verbunden. In diesem Artikel erfährst du, wieso es eine gute Idee ist, im Winter mit dem Mountainbike zu fahren und was es dabei zu beachten gibt. Gleichzeitig stellen wir dir unsere beheizbare Kleidung vor, die dich auch bei eisigen Temperaturen auf deinem Bike warmhält. Wir fassen für dich zusammen, wieso du dein Mountainbike auch im Winter fahren solltest:</p>"
+          }
+        },
+        "content_steps_j6gc4l": {
+          "type": "content_steps",
+          "settings": {
+            "section_id": "",
+            "heading": "Deine Vorteile beim Mountainbiken im Winter",
+            "heading_level": "h3",
+            "intro_text": "<p>So profitierst du auch im Winter von deinem Bike.</p>",
+            "step_title_1": "Du bleibst fit",
+            "step_description_1": "<p>Biken stärkt deine Kondition und hält dich fit – auch im Winter.</p>",
+            "step_title_2": "Du entdeckst Trails neu",
+            "step_description_2": "<p>Schnee, Matsch und Schlamm machen bekannte Strecken zu neuen Abenteuern.</p>",
+            "step_title_3": "Du verbesserst deine Fahrtechnik",
+            "step_description_3": "<p>Winterliche Bedingungen fordern dich heraus – und machen dich besser.</p>",
+            "step_title_4": "Du verbringst Zeit in der Natur",
+            "step_description_4": "<p>Auch in der kalten Jahreszeit rauszukommen, tut Körper und Seele gut.</p>",
+            "step_title_5": "",
+            "step_description_5": "",
+            "step_title_6": "",
+            "step_description_6": ""
+          }
+        },
+        "content_uqyz6x": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "Fahrradbekleidung für den Winter: Darauf kommt es an",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "text_color": "#000000",
+            "section_content": "<p>Im Winter solltest du dich mit der richtigen Fahrradbekleidung ausstatten: warm, wetterfest und sichtbar. Funktionsunterwäsche, helle Kleidung und Reflektoren helfen dir, sicher unterwegs zu sein.</p>"
+          }
+        },
+        "content_c5mpwg": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "Mountainbike fahren im Winter mit unseren beheizbaren Jacken",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "text_color": "#000000",
+            "section_content": "<p>Unsere Heat Jackets mit integrierten Heizpads halten dich zuverlässig warm. Die wind- und wasserabweisende Isolationsjacke sorgt für Wärme bei jeder Fahrt – für Damen und Herren.</p>"
+          }
+        },
+        "image_teaser_b3qeuq": {
+          "type": "image_teaser",
+          "settings": {
+            "section_id": "",
+            "heading_level": "h3",
+            "section_image_position": "row",
+            "background_color": "#000000",
+            "button_background_color": "#000000",
+            "button_text_color": "#000000"
+          }
+        },
+        "content_auojxr": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "Beheizbare Socken & Handschuhe: Schütze dich auf deinem Mountainbike im Winter",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "text_color": "#000000",
+            "section_content": "<p>Unsere beheizbaren Handschuhe und Socken sorgen dafür, dass deine Finger und Füße auch bei Minustemperaturen warm bleiben. Perfekt für sicheres Fahren auf deinem MTB.</p>"
+          }
+        },
+        "product_slideshow_au2w1w": {
+          "type": "product_slideshow",
+          "settings": {
+            "section_id": "",
+            "show_image_overlay": true,
+            "product_list": [
+              "heat-glove-6-0-finger-cap-urban-line-unisex",
+              "heat-glove-1-0-finger-cap-moto-scooter-unisex",
+              "heat-sock-5-1-toe-cap",
+              "heat-sock-6-1-toe-cap-merino-compression"
+            ],
+            "heading": "",
+            "heading_level": "h3",
+            "text_color": "#000000"
+          }
+        },
+        "content_steps_zsceep": {
+          "type": "content_steps",
+          "settings": {
+            "section_id": "",
+            "heading": "5 Tipps für dein Winter-Mountainbiking",
+            "heading_level": "h3",
+            "intro_text": "<p>So bist du auch bei Schnee und Kälte sicher unterwegs.</p>",
+            "step_title_1": "Tipp 1: Sorge für eine ausreichende Beleuchtung",
+            "step_description_1": "<p>Kontrolliere deine Bike-Beleuchtung und rüste dich mit zusätzlichen Helmlampen aus.</p>",
+            "step_title_2": "Tipp 2: Bereite dich mit MTB-Reifen auf Schnee & Eis vor",
+            "step_description_2": "<p>Reduzierter Luftdruck oder Spikereifen bieten dir mehr Grip im Winter.</p>",
+            "step_title_3": "Tipp 3: Passe deine Fahrtechnik an",
+            "step_description_3": "<p>Fahre vorausschauend, vermeide abruptes Bremsen und bleib auf bekannten Wegen.</p>",
+            "step_title_4": "Tipp 4: Fahr in der Gruppe",
+            "step_description_4": "<p>Gemeinsame MTB-Ausfahrten machen mehr Spaß – besonders bei Kälte.</p>",
+            "step_title_5": "Tipp 5: Vorbereitung ist alles",
+            "step_description_5": "<p>Lade dein Handy auf, sag jemandem Bescheid, nimm Wasser und Lampe mit.</p>",
+            "step_title_6": "",
+            "step_description_6": ""
+          }
+        },
+        "content_8ja9a2": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "Fazit: Tipps zum Mountainbiken im Winter sorgen für sicheren Fahrspaß",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "text_color": "#000000",
+            "section_content": "<p>Mit der richtigen Kleidung, einem gepflegten Bike und guter Vorbereitung steht deinem MTB-Abenteuer im Winter nichts im Weg. Unsere beheizbare Kleidung hilft dir, warm zu bleiben.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_tspb13",
+        "content_steps_j6gc4l",
+        "content_uqyz6x",
+        "content_c5mpwg",
+        "image_teaser_b3qeuq",
+        "content_auojxr",
+        "product_slideshow_au2w1w",
+        "content_steps_zsceep",
+        "content_8ja9a2"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "title-color": "#000000",
+        "text-color": "#000000",
+        "active-color": "#000000",
+        "background-color": "#f4f2f0",
+        "sidebar-background-color": "#f4f2f0",
+        "sidebar-active-color": "#003a4b",
+        "table-of-contents-menu": "",
+        "link-top-spacing": 16,
+        "link-right-spacing": 5,
+        "link-bottom-spacing": 16,
+        "link-left-spacing": 12
+      }
+    }
+  },
+  "order": [
+    "main",
+    "content_hub_001"
+  ]
+}
