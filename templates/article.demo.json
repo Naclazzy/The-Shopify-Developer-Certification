@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -24,63 +15,25 @@
     "content_hub_001": {
       "type": "content-hub",
       "blocks": {
-        "content_td4kp4": {
+        "content_khaixp": {
           "type": "content",
           "settings": {
             "section_id": "",
             "heading": "Der Frühling erweckt die Natur wieder zum Leben und bringt strahlende Farben mit sich. Passend zu der bunten Jahreszeit lässt sich auch dein Zuhause einladend und farbenfroh gestalten. Du bist auf der Suche nach Deko-Inspirationen für das Osterfest oder möchtest dich mit neuen Bastelideen kreativ ausleben? Hier bist du richtig.",
             "heading_color": "#000000",
             "heading_level": "h2",
-            "sub_heading": "",
+            "sub_heading": "Finde heraus, was frühlingshafte Deko so besonders macht und welche Bastelideen hierfür auf keinen Fall fehlen dürfen.",
             "sub_heading_color": "#000000",
-            "sub_heading_level": "",
+            "sub_heading_level": "Wir zeigen dir, welche Farben und Materialien sich für deine Frühlingsdeko besonders gut eignen und auf welche Motive du nicht verzichten solltest.",
             "text_color": "#000000",
-            "section_content": ""
+            "section_content": "<p>Mit bunter Frühlingsdeko kannst du sowohl in deinen vier Wänden als auch in deinem Garten für einzigartige Hingucker sorgen. Hier findest du verschiedene Ideen für drinnen und draußen.</p>"
           }
         },
-        "content_hub_summary_ctefus": {
-          "type": "content_hub_summary",
-          "settings": {
-            "section_id": "",
-            "summary_heading": "Finde heraus, was frühlingshafte Deko so besonders macht und welche Bastelideen hierfür auf keinen Fall fehlen dürfen.",
-            "heading_level": "h2",
-            "heading_color": "#000000",
-            "background_color": "#000000",
-            "topic_1": "Mit bunter Frühlingsdeko kannst du sowohl in deinen vier Wänden als auch in deinem Garten für einzigartige Hingucker sorgen. Hier findest du verschiedene Ideen für drinnen und draußen.",
-            "topic_1_description": "Frühlingsdeko mit Silikonformen basteln",
-            "topic_1_link": "#",
-            "topic_1_link_text": "",
-            "topic_1_heading_color": "#000000",
-            "topic_1_text_color": "#000000",
-            "topic_1_link_color": "#000000",
-            "topic_2": "",
-            "topic_2_description": "",
-            "topic_2_link": "",
-            "topic_2_link_text": "",
-            "topic_2_heading_color": "#000000",
-            "topic_2_text_color": "#000000",
-            "topic_2_link_color": "#000000",
-            "topic_3": "",
-            "topic_3_description": "",
-            "topic_3_link": "",
-            "topic_3_link_text": "",
-            "topic_3_heading_color": "#000000",
-            "topic_3_text_color": "#000000",
-            "topic_3_link_color": "#000000",
-            "topic_4": "",
-            "topic_4_description": "",
-            "topic_4_link": "",
-            "topic_4_link_text": "",
-            "topic_4_heading_color": "#000000",
-            "topic_4_text_color": "#000000",
-            "topic_4_link_color": "#000000"
-          }
-        },
-        "content_j34xm8": {
+        "content_qz1k3e": {
           "type": "content",
           "settings": {
             "section_id": "",
-            "heading": "Passend zur Jahreszeit darf bei selbstgemachter Frühlingsdeko vor allem eines nicht fehlen: Blumen in allen erdenklichen Formen und Farben! ... (Rest Text)",
+            "heading": "Du liebst die Farbenpracht des Frühlings und auffallende Deko-Elemente oder magst es lieber schlicht und dezent? Ganz egal, welcher Stil dir mehr zusagt: Selbstgebastelte Frühlingsdeko bietet Bastelspaß für jeden Geschmack. Mit DIY-Dekorationen kannst du deiner Kreativität freien Lauf lassen und beim Basteln alles genau so umsetzen, wie du es gerne magst.",
             "heading_color": "#000000",
             "heading_level": "h2",
             "sub_heading": "",
@@ -90,15 +43,15 @@
             "section_content": ""
           }
         },
-        "content_steps_pdfoh5": {
+        "content_steps_3g1y6c": {
           "type": "content_steps",
           "settings": {
             "section_id": "",
-            "heading": "Frühlingsdeko ist von der aufblühenden Natur und den ersten Blumen inspiriert. ... (Rest Text)",
+            "heading": "Frühlingsdeko ist von der aufblühenden Natur und den ersten Blumen, wie Schneeglöckchen, Narzissen, Primeln, Tulpen oder Krokussen, inspiriert. Kein Wunder also, dass man auch beim Basteln und Dekorieren auf eine große Farbpalette setzt. Besonders Pastellfarben, wie Flieder, Rosé, Mintgrün oder ein zartes Gelb und Hellblau, erinnern an die ersten Blüten und lassen sich wunderbar miteinander kombinieren. Zusammen mit neutralen Tönen, wie Weiß, Beige oder Grau, entsteht ein harmonisches Gesamtbild. Wer es lieber knalliger mag, kann auch auf ein sattes Violett, Orange oder Grün zurückgreifen – alles ist erlaubt.",
             "heading_level": "h2",
-            "intro_text": "<p>Für selbstgemachte Frühlingsdeko musst du nicht tief in die Tasche greifen. ... (Rest Text)</p>",
+            "intro_text": "<p>Für selbstgemachte Frühlingsdeko musst du nicht tief in die Tasche greifen. Neben selbstgepflückten und getrockneten Blumen eignen sich auch andere Naturmaterialien ideal für schöne Deko-Elemente. Holzstücke und Zweige lassen sich wunderbar weiterverarbeiten und sind die Grundlage vieler Bastelanleitungen. Aber auch vorhandene Gegenstände, wie alte Vorratsgläser, buntes Papier oder Eierkartons und Pappe, sind vielseitige Bastelmaterialien. Besonders viele Möglichkeiten bietet das Basteln mit Gießmassen, wie Gips, Beton und Resin, zusammen mit Silikonformen in frühlingshaften Motiven.</p>",
             "step_title_1": "Motive für den Frühling",
-            "step_description_1": "<p>Mit dem Frühling kommt auch das Osterfest. ... (Rest Text)</p>",
+            "step_description_1": "<p>Mit dem Frühling kommt auch das Osterfest. Hier dürfen vor allem zwei Motive nicht fehlen: Osterhasen und Ostereier. Aber auch andere Tiermotive, wie Enten, Schmetterlinge, Bienen und Vögel, gehören dazu. In Kombination mit verschiedenen Blumenmotiven holst du dir die Frühlingsstimmung in dein Zuhause. Durch das Basteln mit Silikonformen kannst du kreative Motive mit filigranen Details schnell und einfach selber machen – und das aus zahlreichen verschiedenen Materialien.</p>",
             "step_title_2": "",
             "step_description_2": "",
             "step_title_3": "",
@@ -111,10 +64,10 @@
             "step_description_6": ""
           }
         },
-        "product_slideshow_ubxyi3": {
+        "product_slideshow_tzddmy": {
           "type": "product_slideshow",
           "settings": {
-            "section_id": "",
+            "section_id": "15124455358788",
             "show_image_overlay": true,
             "product_list": [],
             "heading": "",
@@ -122,11 +75,11 @@
             "text_color": "#000000"
           }
         },
-        "content_5ctdhy": {
+        "content_xg2tgl": {
           "type": "content",
           "settings": {
             "section_id": "",
-            "heading": "Der Frühling bietet zahlreiche Gestaltungsmöglichkeiten für drinnen und draußen. ... (Rest Text)",
+            "heading": "Der Frühling bietet zahlreiche Gestaltungsmöglichkeiten für drinnen und draußen. Die ersten warmen Sonnenstrahlen laden dazu ein, gemütliche Stunden auf dem Balkon oder der Terrasse zu verbringen. Mit lebhafter Deko sorgst du für ein einladendes Ambiente und charmante Hingucker.",
             "heading_color": "#000000",
             "heading_level": "h2",
             "sub_heading": "",
@@ -136,15 +89,15 @@
             "section_content": ""
           }
         },
-        "content_steps_m8ds12": {
+        "content_steps_2f9n70": {
           "type": "content_steps",
           "settings": {
             "section_id": "",
-            "heading": "Das Highlight im Frühling ist ganz klar das Osterfest. ... (Rest Text)",
+            "heading": "Das Highlight im Frühling ist ganz klar das Osterfest. Die passende Deko macht die Feiertage mit der Familie und Freunden besonders festlich. Während es in den Geschäften allerlei zu kaufen gibt, kannst du auch einfach selbst kreativ werden.",
             "heading_level": "h2",
-            "intro_text": "<p>Ob Tulpe, Narzisse, Hyazinthe, Krokus oder Margerite: ... (Rest Text)</p>",
+            "intro_text": "<p>Ob Tulpe, Narzisse, Hyazinthe, Krokus oder Margerite: Der Frühling bietet eine große Vielfalt an frischen Blumen, die für einen romantischen Blickfang auf Tischen oder an Türen und Fenstern sorgen.</p>",
             "step_title_1": "Gartendeko für den Frühling selbstgemacht",
-            "step_description_1": "<p>Im Frühling und Sommer kommt wieder Leben in den Garten. ... (Rest Text)</p>",
+            "step_description_1": "<p>Im Frühling und Sommer kommt wieder Leben in den Garten. Für alle Gärtner sind Kräutertäfelchen und Pflanzenstecker eine praktische DIY Idee, um den Überblick im Beet zu behalten.</p>",
             "step_title_2": "",
             "step_description_2": "",
             "step_title_3": "",
@@ -157,44 +110,33 @@
             "step_description_6": ""
           }
         },
-        "collection_slideshow_d8q30s": {
-          "type": "collection_slideshow",
-          "settings": {
-            "section_id": "",
-            "show_image_overlay": true,
-            "collection_list": [],
-            "heading": "",
-            "heading_level": "h2",
-            "text_color": "#000000"
-          }
-        },
-        "content_sanqer": {
+        "content_kat7xl": {
           "type": "content",
           "settings": {
             "section_id": "",
-            "heading": "Ganz egal, ob du neue Tischdeko, Wanddeko oder Fensterdeko basteln willst: Silikonformen bieten vielseitige Bastelmöglichkeiten. ... (Rest Text)",
+            "heading": "Silikon - Giessform - Osteraufhänger- Hasen - Ostermotive -",
             "heading_color": "#000000",
             "heading_level": "h2",
-            "sub_heading": "",
+            "sub_heading": "DIY Frühlingsdeko aus Silikonformen",
             "sub_heading_color": "#000000",
             "sub_heading_level": "",
             "text_color": "#000000",
             "section_content": ""
           }
         },
-        "content_steps_r9gmp5": {
+        "content_steps_wzgs8j": {
           "type": "content_steps",
           "settings": {
             "section_id": "",
-            "heading": "Spüle vor der Anwendung deine Silikonform kurz mit lauwarmem Wasser aus.",
+            "heading": "Schritt 2: Silikonform auf eine ebene Fläche stellen",
             "heading_level": "h2",
-            "intro_text": "<p>Wir empfehlen dir, deine Form vor dem Befüllen auf einer ebenen Fläche abzustellen.</p>",
-            "step_title_1": "Schritt 3: Silikonform bis zur Hälfte befüllen",
-            "step_description_1": "<p>Fülle die Silikonform nun bis zur Hälfte mit deiner Gießmasse auf. ...</p>",
-            "step_title_2": "Schritt 4: Form fertig befüllen",
-            "step_description_2": "<p>Fülle dein restliches Gießmaterial bis etwa 1 mm unter den Rand. ...</p>",
-            "step_title_3": "Schritt 5: Gießmasse trocknen lassen",
-            "step_description_3": "<p>Lasse deine Gießmasse nun an einem geschützten Ort trocknen. ...</p>",
+            "intro_text": "<p>Schritt 4: Form fertig befüllen</p>",
+            "step_title_1": "Schritt 5: Gießmasse trocknen lassen",
+            "step_description_1": "",
+            "step_title_2": "",
+            "step_description_2": "",
+            "step_title_3": "",
+            "step_description_3": "",
             "step_title_4": "",
             "step_description_4": "",
             "step_title_5": "",
@@ -203,7 +145,7 @@
             "step_description_6": ""
           }
         },
-        "faq_section_fraiir": {
+        "faq_section_vvafqt": {
           "type": "faq_section",
           "settings": {
             "section_id": "",
@@ -221,11 +163,11 @@
             "question_color_6": "#000000",
             "answer_color_6": "#000000",
             "faq_heading": "Für welche Materialien sind die Silikonformen von Flothari geeignet?",
-            "faq_intro": "<p>Du kannst die Gießformen für zahlreiche verschiedene Materialien nutzen. ...</p>",
+            "faq_intro": "<p>Du kannst die Gießformen für zahlreiche verschiedene Materialien, wie Gips, Beton, Keramikmasse, Resin oder Wachs nutzen – deiner Kreativität sind keine Grenzen gesetzt.</p>",
             "faq_question_1": "Welche Frühlingsmotive bietet Flothari an?",
-            "faq_answer_1": "Wir bieten dir eine große Auswahl an Hasen, Enten, Eiern, Blumen etc. ...",
+            "faq_answer_1": "Wir bieten dir in unserem Onlineshop eine große Auswahl an Silikonformen mit süßen und kreativen Motiven, wie Hasen, Enten, Hühnern, Eiern oder Blumen, an, die sich perfekt für den Frühling eignen.",
             "faq_question_2": "Kann ich die Silikonformen mehrmals benutzen?",
-            "faq_answer_2": "Ja, sie sind robust und langlebig.",
+            "faq_answer_2": "Ja, du kannst unsere Formen immer wieder und für zahlreiche Bastelprojekte verwenden. Wir setzen in der Produktion unserer Formen auf hochwertiges Silikon, das besonders robust, leicht zu entformen und langlebig ist.",
             "faq_question_3": "",
             "faq_answer_3": "",
             "faq_question_4": "",
@@ -236,11 +178,11 @@
             "faq_answer_6": ""
           }
         },
-        "content_t4i5iz": {
+        "content_0q0xga": {
           "type": "content",
           "settings": {
             "section_id": "",
-            "heading": "Mit hellen Farben, Naturmaterialien und Silikonformen lassen sich wunderschöne DIY Dekoideen schnell und einfach umsetzen. ... (Rest Text)",
+            "heading": "Mit hellen Farben, verschiedenen Naturmaterialien und Silikonformen lassen sich wunderschöne DIY Dekoideen schnell und einfach umsetzen.",
             "heading_color": "#000000",
             "heading_level": "h2",
             "sub_heading": "",
@@ -252,18 +194,16 @@
         }
       },
       "block_order": [
-        "content_td4kp4",
-        "content_hub_summary_ctefus",
-        "content_j34xm8",
-        "content_steps_pdfoh5",
-        "product_slideshow_ubxyi3",
-        "content_5ctdhy",
-        "content_steps_m8ds12",
-        "collection_slideshow_d8q30s",
-        "content_sanqer",
-        "content_steps_r9gmp5",
-        "faq_section_fraiir",
-        "content_t4i5iz"
+        "content_khaixp",
+        "content_qz1k3e",
+        "content_steps_3g1y6c",
+        "product_slideshow_tzddmy",
+        "content_xg2tgl",
+        "content_steps_2f9n70",
+        "content_kat7xl",
+        "content_steps_wzgs8j",
+        "faq_section_vvafqt",
+        "content_0q0xga"
       ],
       "custom_css": [],
       "settings": {
