@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -9,7 +18,9 @@
         "text_color": "#ffffff",
         "alpha": 0.2,
         "button_hover_background_color": "#b8967a",
-        "button_hover_text_color": "#ffffff"
+        "button_hover_text_color": "#ffffff",
+        "button_border_radius": 0,
+        "border_radius": "yes"
       }
     },
     "content_hub_001": {
@@ -25,8 +36,8 @@
             "sub_heading": "Finde heraus, was frühlingshafte Deko so besonders macht und welche Bastelideen hierfür auf keinen Fall fehlen dürfen.",
             "sub_heading_color": "#000000",
             "sub_heading_level": "Frühlingsdeko basteln",
-            "text_color": "#000000",
-            "section_content": "<p>/</p>"
+            "section_content": "<p>/</p>",
+            "text_color": "#000000"
           }
         },
         "content_92vvwr": {
@@ -39,8 +50,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "",
-            "text_color": "#000000",
-            "section_content": ""
+            "section_content": "",
+            "text_color": "#000000"
           }
         },
         "content_steps_olxpsu": {
@@ -67,9 +78,12 @@
         "product_slideshow_9mpyjm": {
           "type": "product_slideshow",
           "settings": {
-            "section_id": "15124455358788",
             "show_image_overlay": true,
-            "product_list": [],
+            "section_id": "15124455358788",
+            "product_list": [
+              "demo-1",
+              "demo-2"
+            ],
             "heading": "",
             "heading_level": "h2",
             "text_color": "#000000"
@@ -85,8 +99,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "",
-            "text_color": "#000000",
-            "section_content": ""
+            "section_content": "",
+            "text_color": "#000000"
           }
         },
         "content_steps_fj5t8t": {
@@ -120,8 +134,8 @@
             "sub_heading": "DIY Frühlingsdeko aus Silikonformen",
             "sub_heading_color": "#000000",
             "sub_heading_level": "",
-            "text_color": "#000000",
-            "section_content": ""
+            "section_content": "",
+            "text_color": "#000000"
           }
         },
         "content_steps_bel07y": {
@@ -149,33 +163,33 @@
           "type": "faq_section",
           "settings": {
             "section_id": "",
-            "heading_color": "#000000",
-            "question_color_1": "#000000",
-            "answer_color_1": "#000000",
-            "question_color_2": "#000000",
-            "answer_color_2": "#000000",
-            "question_color_3": "#000000",
-            "answer_color_3": "#000000",
-            "question_color_4": "#000000",
-            "answer_color_4": "#000000",
-            "question_color_5": "#000000",
-            "answer_color_5": "#000000",
-            "question_color_6": "#000000",
-            "answer_color_6": "#000000",
             "faq_heading": "/",
             "faq_intro": "<p>Für welche Materialien sind die Silikonformen von Flothari geeignet?</p>",
+            "heading_color": "#000000",
             "faq_question_1": "Du kannst die Gießformen für zahlreiche verschiedene Materialien, wie Gips, Beton, Keramikmasse, Resin oder Wachs nutzen – deiner Kreativität sind keine Grenzen gesetzt.",
             "faq_answer_1": "/",
+            "question_color_1": "#000000",
+            "answer_color_1": "#000000",
             "faq_question_2": "Welche Frühlingsmotive bietet Flothari an?",
             "faq_answer_2": "Wir bieten dir in unserem Onlineshop eine große Auswahl an Silikonformen mit süßen und kreativen Motiven, wie Hasen, Enten, Hühnern, Eiern oder Blumen, an, die sich perfekt für den Frühling eignen.",
+            "question_color_2": "#000000",
+            "answer_color_2": "#000000",
             "faq_question_3": "/",
             "faq_answer_3": "Kann ich die Silikonformen mehrmals benutzen?",
+            "question_color_3": "#000000",
+            "answer_color_3": "#000000",
             "faq_question_4": "Ja, du kannst unsere Formen immer wieder und für zahlreiche Bastelprojekte verwenden. Wir setzen in der Produktion unserer Formen auf hochwertiges Silikon, das besonders robust, leicht zu entformen und langlebig ist.",
             "faq_answer_4": "",
+            "question_color_4": "#000000",
+            "answer_color_4": "#000000",
             "faq_question_5": "",
             "faq_answer_5": "",
+            "question_color_5": "#000000",
+            "answer_color_5": "#000000",
             "faq_question_6": "",
-            "faq_answer_6": ""
+            "faq_answer_6": "",
+            "question_color_6": "#000000",
+            "answer_color_6": "#000000"
           }
         },
         "content_javrr8": {
@@ -188,8 +202,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "",
-            "text_color": "#000000",
-            "section_content": ""
+            "section_content": "",
+            "text_color": "#000000"
           }
         }
       },
