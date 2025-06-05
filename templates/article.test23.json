@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -9,7 +18,9 @@
         "text_color": "#ffffff",
         "alpha": 0.2,
         "button_hover_background_color": "#b8967a",
-        "button_hover_text_color": "#ffffff"
+        "button_hover_text_color": "#ffffff",
+        "button_border_radius": 0,
+        "border_radius": "yes"
       }
     },
     "content_hub_001": {
@@ -25,8 +36,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "h3",
-            "text_color": "#000000",
-            "section_content": "<p>Der Frühling erweckt die Natur wieder zum Leben und bringt strahlende Farben mit sich. Passend zu der bunten Jahreszeit lässt sich auch dein Zuhause einladend und farbenfroh gestalten. Du bist auf der Suche nach Deko-Inspirationen für das Osterfest oder möchtest dich mit neuen Bastelideen kreativ ausleben? Hier bist du richtig. Erfahre in diesem Beitrag, welche Deko sich ideal für den Frühlingsbeginn eignet und wie du mit passenden Farben, Materialien und Motiven dein Zuhause verschönern kannst. Wir zeigen dir außerdem, wie du mit Silikonformen wunderschöne Schmuckstücke basteln kannst und für Bastelspaß mit der ganzen Familie sorgst. Passend zur Jahreszeit darf bei selbstgemachter Frühlingsdeko vor allem eines nicht fehlen: Blumen in allen erdenklichen Formen und Farben!</p>"
+            "section_content": "<p>Der Frühling erweckt die Natur wieder zum Leben und bringt strahlende Farben mit sich. Passend zu der bunten Jahreszeit lässt sich auch dein Zuhause einladend und farbenfroh gestalten. Du bist auf der Suche nach Deko-Inspirationen für das Osterfest oder möchtest dich mit neuen Bastelideen kreativ ausleben? Hier bist du richtig. Erfahre in diesem Beitrag, welche Deko sich ideal für den Frühlingsbeginn eignet und wie du mit passenden Farben, Materialien und Motiven dein Zuhause verschönern kannst. Wir zeigen dir außerdem, wie du mit Silikonformen wunderschöne Schmuckstücke basteln kannst und für Bastelspaß mit der ganzen Familie sorgst. Passend zur Jahreszeit darf bei selbstgemachter Frühlingsdeko vor allem eines nicht fehlen: Blumen in allen erdenklichen Formen und Farben!</p>",
+            "text_color": "#000000"
           }
         },
         "content_bzrbci": {
@@ -39,8 +50,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "h3",
-            "text_color": "#000000",
-            "section_content": "<p>Du liebst die Farbenpracht des Frühlings und auffallende Deko-Elemente oder magst es lieber schlicht und dezent?</p>"
+            "section_content": "<p>Du liebst die Farbenpracht des Frühlings und auffallende Deko-Elemente oder magst es lieber schlicht und dezent?</p>",
+            "text_color": "#000000"
           }
         },
         "content_steps_6uutyz": {
@@ -67,13 +78,13 @@
         "product_slideshow_se3byf": {
           "type": "product_slideshow",
           "settings": {
-            "section_id": "15124455358788",
             "show_image_overlay": true,
+            "section_id": "15124455358788",
             "product_list": [
               "demo-1",
               "demo-2"
             ],
-            "heading": "",
+            "heading": "dsa",
             "heading_level": "h3",
             "text_color": "#000000"
           }
@@ -88,8 +99,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "h3",
-            "text_color": "#000000",
-            "section_content": "<p>Der Frühling bietet zahlreiche Gestaltungsmöglichkeiten für drinnen und draußen.</p>"
+            "section_content": "<p>Der Frühling bietet zahlreiche Gestaltungsmöglichkeiten für drinnen und draußen.</p>",
+            "text_color": "#000000"
           }
         },
         "content_steps_dzkmw3": {
@@ -123,8 +134,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "h3",
-            "text_color": "#000000",
-            "section_content": "<p>Ganz egal, ob du neue Tischdeko, Wanddeko oder Fensterdeko basteln willst:</p>"
+            "section_content": "<p>Ganz egal, ob du neue Tischdeko, Wanddeko oder Fensterdeko basteln willst:</p>",
+            "text_color": "#000000"
           }
         },
         "content_steps_x0j5gr": {
@@ -152,27 +163,33 @@
           "type": "faq_section",
           "settings": {
             "section_id": "",
+            "faq_heading": "FAQ",
+            "faq_intro": "<p>Welche Farben eignen sich zum Basteln von Frühlingsdeko?</p>",
             "heading_color": "#000000",
+            "faq_question_1": "Bei Frühlingsdeko gilt: je bunter, desto besser.",
+            "faq_answer_1": "",
             "question_color_1": "#000000",
             "answer_color_1": "#000000",
-            "question_color_2": "#000000",
-            "answer_color_2": "#000000",
-            "question_color_3": "#000000",
-            "answer_color_3": "#000000",
-            "question_color_4": "#000000",
-            "answer_color_4": "#000000",
-            "question_color_5": "#000000",
-            "answer_color_5": "#000000",
-            "question_color_6": "#000000",
-            "answer_color_6": "#000000",
-            "faq_intro": "<p>Welche Farben eignen sich zum Basteln von Frühlingsdeko?</p>",
-            "faq_question_1": "Bei Frühlingsdeko gilt: je bunter, desto besser.",
             "faq_question_2": "Für welche Materialien sind die Silikonformen von Flothari geeignet?",
             "faq_answer_2": "Du kannst die Gießformen für zahlreiche verschiedene Materialien",
+            "question_color_2": "#000000",
+            "answer_color_2": "#000000",
             "faq_question_3": "Welche Frühlingsmotive bietet Flothari an?",
             "faq_answer_3": "Wir bieten dir in unserem Onlineshop eine große Auswahl",
+            "question_color_3": "#000000",
+            "answer_color_3": "#000000",
             "faq_question_4": "Kann ich die Silikonformen mehrmals benutzen?",
-            "faq_answer_4": "Ja, du kannst unsere Formen immer wieder und für zahlreiche Bastelprojekte verwenden."
+            "faq_answer_4": "Ja, du kannst unsere Formen immer wieder und für zahlreiche Bastelprojekte verwenden.",
+            "question_color_4": "#000000",
+            "answer_color_4": "#000000",
+            "faq_question_5": "",
+            "faq_answer_5": "",
+            "question_color_5": "#000000",
+            "answer_color_5": "#000000",
+            "faq_question_6": "",
+            "faq_answer_6": "",
+            "question_color_6": "#000000",
+            "answer_color_6": "#000000"
           }
         },
         "content_c2jqgs": {
@@ -185,8 +202,8 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "h3",
-            "text_color": "#000000",
-            "section_content": "<p>Mit hellen Farben, verschiedenen Naturmaterialien und Silikonformen</p>"
+            "section_content": "<p>Mit hellen Farben, verschiedenen Naturmaterialien und Silikonformen</p>",
+            "text_color": "#000000"
           }
         }
       },
