@@ -1,0 +1,225 @@
+{
+  "sections": {
+    "main": {
+      "type": "content-hub-article",
+      "settings": {
+        "enable_slider": true,
+        "sections_margin": 30,
+        "color": "#000000",
+        "text_color": "#ffffff",
+        "alpha": 0.2,
+        "button_hover_background_color": "#b8967a",
+        "button_hover_text_color": "#ffffff"
+      }
+    },
+    "content_hub_001": {
+      "type": "content-hub",
+      "blocks": {
+        "content_pzxoec": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "Frühlingsdeko selber machen Was ist passende Deko für den Frühling?",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "text_color": "#000000",
+            "section_content": "<p>Der Frühling erweckt die Natur wieder zum Leben und bringt strahlende Farben mit sich. Passend zu der bunten Jahreszeit lässt sich auch dein Zuhause einladend und farbenfroh gestalten. Du bist auf der Suche nach Deko-Inspirationen für das Osterfest oder möchtest dich mit neuen Bastelideen kreativ ausleben? Hier bist du richtig. Erfahre in diesem Beitrag, welche Deko sich ideal für den Frühlingsbeginn eignet und wie du mit passenden Farben, Materialien und Motiven dein Zuhause verschönern kannst. Wir zeigen dir außerdem, wie du mit Silikonformen wunderschöne Schmuckstücke basteln kannst und für Bastelspaß mit der ganzen Familie sorgst. Passend zur Jahreszeit darf bei selbstgemachter Frühlingsdeko vor allem eines nicht fehlen: Blumen in allen erdenklichen Formen und Farben! [...]</p>"
+          }
+        },
+        "content_h15vtb": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "Frühlingsdeko basteln",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "text_color": "#000000",
+            "section_content": "<p>Du liebst die Farbenpracht des Frühlings und auffallende Deko-Elemente oder magst es lieber schlicht und dezent? [...]</p>"
+          }
+        },
+        "content_steps_wbbhon": {
+          "type": "content_steps",
+          "settings": {
+            "section_id": "",
+            "heading": "Frühlingshafte Farben",
+            "heading_level": "h3",
+            "intro_text": "<p>Frühlingsdeko ist von der aufblühenden Natur und den ersten Blumen [...]</p>",
+            "step_title_1": "Materialien für deine Frühlingsdeko",
+            "step_description_1": "<p>Für selbstgemachte Frühlingsdeko musst du nicht tief in die Tasche greifen. [...]</p>",
+            "step_title_2": "Motive für den Frühling",
+            "step_description_2": "<p>Mit dem Frühling kommt auch das Osterfest. [...]</p>",
+            "step_title_3": "",
+            "step_description_3": "",
+            "step_title_4": "",
+            "step_description_4": "",
+            "step_title_5": "",
+            "step_description_5": "",
+            "step_title_6": "",
+            "step_description_6": ""
+          }
+        },
+        "product_slideshow_j8xub0": {
+          "type": "product_slideshow",
+          "settings": {
+            "section_id": "15124455358788",
+            "show_image_overlay": true,
+            "product_list": [
+              "15124455031108"
+            ],
+            "heading": "",
+            "heading_level": "h3",
+            "text_color": "#000000"
+          }
+        },
+        "content_dfa89p": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "Frühlingsdeko: Innen- und Außenbereich dekorieren",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "text_color": "#000000",
+            "section_content": "<p>Der Frühling bietet zahlreiche Gestaltungsmöglichkeiten für drinnen und draußen. [...]</p>"
+          }
+        },
+        "content_steps_bgw2n0": {
+          "type": "content_steps",
+          "settings": {
+            "section_id": "",
+            "heading": "Kreative Osterdeko selber basteln",
+            "heading_level": "h3",
+            "intro_text": "<p>Das Highlight im Frühling ist ganz klar das Osterfest. [...]</p>",
+            "step_title_1": "Frühlingsblumen als Tischdeko und Fensterdeko",
+            "step_description_1": "<p>Ob Tulpe, Narzisse, Hyazinthe, Krokus oder Margerite: [...]</p>",
+            "step_title_2": "Gartendeko für den Frühling selbstgemacht",
+            "step_description_2": "<p>Im Frühling und Sommer kommt wieder Leben in den Garten. [...]</p>",
+            "step_title_3": "",
+            "step_description_3": "",
+            "step_title_4": "",
+            "step_description_4": "",
+            "step_title_5": "",
+            "step_description_5": "",
+            "step_title_6": "",
+            "step_description_6": ""
+          }
+        },
+        "content_fiask3": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "DIY Frühlingsdeko aus Silikonformen",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "text_color": "#000000",
+            "section_content": "<p>Ganz egal, ob du neue Tischdeko, Wanddeko oder Fensterdeko basteln willst: [...]</p>"
+          }
+        },
+        "content_steps_fllgri": {
+          "type": "content_steps",
+          "settings": {
+            "section_id": "",
+            "heading": "Schritt 1: Silikonform ausspülen",
+            "heading_level": "h3",
+            "intro_text": "<p>Schritt 2: Silikonform auf eine ebene Fläche stellen</p>",
+            "step_title_1": "Schritt 3: Silikonform bis zur Hälfte befüllen",
+            "step_description_1": "<p>Schritt 4: Form fertig befüllen</p>",
+            "step_title_2": "Schritt 5: Gießmasse trocknen lassen",
+            "step_description_2": "",
+            "step_title_3": "",
+            "step_description_3": "",
+            "step_title_4": "",
+            "step_description_4": "",
+            "step_title_5": "",
+            "step_description_5": "",
+            "step_title_6": "",
+            "step_description_6": ""
+          }
+        },
+        "faq_section_ohg2dd": {
+          "type": "faq_section",
+          "settings": {
+            "section_id": "",
+            "heading_color": "#000000",
+            "question_color_1": "#000000",
+            "answer_color_1": "#000000",
+            "question_color_2": "#000000",
+            "answer_color_2": "#000000",
+            "question_color_3": "#000000",
+            "answer_color_3": "#000000",
+            "question_color_4": "#000000",
+            "answer_color_4": "#000000",
+            "question_color_5": "#000000",
+            "answer_color_5": "#000000",
+            "question_color_6": "#000000",
+            "answer_color_6": "#000000",
+            "faq_intro": "<p>Welche Farben eignen sich zum Basteln von Frühlingsdeko?</p>",
+            "faq_question_1": "Bei Frühlingsdeko gilt: je bunter, desto besser. [...]",
+            "faq_question_2": "Für welche Materialien sind die Silikonformen von Flothari geeignet?",
+            "faq_answer_2": "Du kannst die Gießformen für zahlreiche verschiedene Materialien [...]",
+            "faq_question_3": "Welche Frühlingsmotive bietet Flothari an?",
+            "faq_answer_3": "Wir bieten dir in unserem Onlineshop eine große Auswahl [...]",
+            "faq_question_4": "Kann ich die Silikonformen mehrmals benutzen?",
+            "faq_answer_4": "Ja, du kannst unsere Formen immer wieder und für zahlreiche Bastelprojekte verwenden. [...]"
+          }
+        },
+        "content_e6tl7l": {
+          "type": "content",
+          "settings": {
+            "section_id": "",
+            "heading": "Fazit: Frühjahrsdeko basteln",
+            "heading_color": "#000000",
+            "heading_level": "h2",
+            "sub_heading": "",
+            "sub_heading_color": "#000000",
+            "sub_heading_level": "h3",
+            "text_color": "#000000",
+            "section_content": "<p>Mit hellen Farben, verschiedenen Naturmaterialien und Silikonformen [...]</p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_pzxoec",
+        "content_h15vtb",
+        "content_steps_wbbhon",
+        "product_slideshow_j8xub0",
+        "content_dfa89p",
+        "content_steps_bgw2n0",
+        "content_fiask3",
+        "content_steps_fllgri",
+        "faq_section_ohg2dd",
+        "content_e6tl7l"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "title-color": "#000000",
+        "text-color": "#000000",
+        "active-color": "#000000",
+        "background-color": "#f4f2f0",
+        "sidebar-background-color": "#f4f2f0",
+        "sidebar-active-color": "#003a4b",
+        "table-of-contents-menu": "",
+        "link-top-spacing": 16,
+        "link-right-spacing": 5,
+        "link-bottom-spacing": 16,
+        "link-left-spacing": 12
+      }
+    }
+  },
+  "order": [
+    "main",
+    "content_hub_001"
+  ]
+}
