@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -9,7 +18,9 @@
         "text_color": "#ffffff",
         "alpha": 0.2,
         "button_hover_background_color": "#b8967a",
-        "button_hover_text_color": "#ffffff"
+        "button_hover_text_color": "#ffffff",
+        "button_border_radius": 0,
+        "border_radius": "yes"
       }
     },
     "content_hub_001": {
@@ -25,64 +36,63 @@
             "sub_heading": "",
             "sub_heading_color": "#000000",
             "sub_heading_level": "h3",
-            "text_color": "#000000",
-            "section_content": "<p>Willkommen zu unserem großen DIY-Artikel für kreative Wohnideen. Hier zeigen wir dir Schritt für Schritt, wie du dein Zuhause individuell gestalten kannst.</p>"
+            "section_content": "<p>Willkommen zu unserem großen DIY-Artikel für kreative Wohnideen. Hier zeigen wir dir Schritt für Schritt, wie du dein Zuhause individuell gestalten kannst.</p>",
+            "text_color": "#000000"
           }
         },
         "image_teaser_7vy56a": {
           "type": "image_teaser",
           "settings": {
             "section_id": "",
-            "heading_level": "h3",
-            "section_image_position": "row",
-            "background_color": "#fff",
-            "button_background_color": "#000",
-            "button_text_color": "#fff",
             "heading": "Dein DIY Einstieg",
+            "heading_level": "h3",
             "section_content": "<p>Starte direkt mit einfachen Projekten für dein Wohnzimmer.</p>",
             "section_button_text": "Jetzt entdecken",
             "section_button_link": "https://shopwise.de/diy-start",
-            "section_image": "shopify://shop_images/diy_start_teaser.jpg"
+            "section_image_position": "row",
+            "background_color": "#ffffff",
+            "button_background_color": "#000000",
+            "button_text_color": "#ffffff"
           }
         },
         "faq_section_livxub": {
           "type": "faq_section",
           "settings": {
             "section_id": "",
-            "heading_color": "#000000",
-            "question_color_1": "#000000",
-            "answer_color_1": "#000000",
-            "question_color_2": "#000000",
-            "answer_color_2": "#000000",
-            "question_color_3": "#000000",
-            "answer_color_3": "#000000",
-            "question_color_4": "#000000",
-            "answer_color_4": "#000000",
-            "question_color_5": "#000000",
-            "answer_color_5": "#000000",
-            "question_color_6": "#000000",
-            "answer_color_6": "#000000",
             "faq_heading": "Häufige Fragen zum DIY",
             "faq_intro": "Hier findest du Antworten auf häufige Fragen zum Selbermachen.",
+            "heading_color": "#000000",
             "faq_question_1": "Was bedeutet DIY?",
             "faq_answer_1": "DIY steht für \"Do it yourself\" – also Selbstgemachtes.",
+            "question_color_1": "#000000",
+            "answer_color_1": "#000000",
             "faq_question_2": "Welche Materialien brauche ich?",
             "faq_answer_2": "Das kommt auf das Projekt an – wir zeigen dir alles im Artikel.",
+            "question_color_2": "#000000",
+            "answer_color_2": "#000000",
             "faq_question_3": "Wie viel Zeit muss ich einplanen?",
             "faq_answer_3": "Die meisten Ideen dauern 15–60 Minuten.",
+            "question_color_3": "#000000",
+            "answer_color_3": "#000000",
             "faq_question_4": "Kann ich die Projekte mit Kindern machen?",
             "faq_answer_4": "Viele – ja! Wir zeigen kindgerechte Varianten.",
+            "question_color_4": "#000000",
+            "answer_color_4": "#000000",
             "faq_question_5": "Muss ich dafür handwerklich begabt sein?",
             "faq_answer_5": "Nein, die Anleitungen sind einfach gehalten.",
+            "question_color_5": "#000000",
+            "answer_color_5": "#000000",
             "faq_question_6": "Wo bekomme ich die Materialien her?",
-            "faq_answer_6": "Direkt im Bastelbedarf oder in unserem Online-Shop."
+            "faq_answer_6": "Direkt im Bastelbedarf oder in unserem Online-Shop.",
+            "question_color_6": "#000000",
+            "answer_color_6": "#000000"
           }
         },
         "content_hub_html_cp3u5t": {
           "type": "content_hub_html",
           "settings": {
             "section_id": "",
-            "section_html": "<div class=\"custom-html-box\"><strong>Spare 10%</strong> auf alle DIY-Sets mit dem Code <code>DIY10</code></div>"
+            "section_html": "<div class=\"custom-html-box\">\n<strong>Spare 10%</strong> auf alle DIY-Sets mit dem Code <code>DIY10</code>\n</div>"
           }
         },
         "content_quote_hviwlt": {
@@ -92,6 +102,20 @@
             "section_quote": "\"Selbermachen schafft nicht nur schöne Dinge, sondern auch schöne Erinnerungen.\"",
             "section_quote_author": "Clara Holzmann"
           }
+        },
+        "product_slideshow_wKzQEj": {
+          "type": "product_slideshow",
+          "settings": {
+            "show_image_overlay": true,
+            "section_id": "product-slideshow-1",
+            "product_list": [
+              "demo-1",
+              "demo-2"
+            ],
+            "heading": "",
+            "heading_level": "h3",
+            "text_color": "#ffffff"
+          }
         }
       },
       "block_order": [
@@ -99,7 +123,8 @@
         "image_teaser_7vy56a",
         "faq_section_livxub",
         "content_hub_html_cp3u5t",
-        "content_quote_hviwlt"
+        "content_quote_hviwlt",
+        "product_slideshow_wKzQEj"
       ],
       "custom_css": [],
       "settings": {
