@@ -29,8 +29,8 @@
   endfor
 %}
 
-<div>Artikel mit Prio Tags: {{ prio_handles }}</div>
-<div>Artikel ohne Prio Tags:{{ normal_handles }}</div>
+<div><strong>Artikel mit Prio Tags:</strong> {{ prio_handles }}</div>
+<div><strong>Artikel ohne Prio Tags:</strong>{{ normal_handles }}</div>
 
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
