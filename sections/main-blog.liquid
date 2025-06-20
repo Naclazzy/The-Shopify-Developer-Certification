@@ -22,7 +22,7 @@
  
  for article in blog.articles 
    if article.tags contains 'Prio'
-     assign articlePrio = articlePrio | append: article.id
+     assign articlePrio = articlePrio | append: article.title | append: ','
    else
      assign articleNorm = articleNorm | append: article.handle
    endif 
