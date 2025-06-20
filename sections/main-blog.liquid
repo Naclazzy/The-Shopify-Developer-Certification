@@ -16,6 +16,21 @@
   }
 {%- endstyle -%}
 
+{% liquid
+  assign prio_handles = ''
+  assign normal_handles = ''
+
+  for article in blog.articles
+    if article.tags contains 'Prio'
+      assign prio_handles = prio_handles | append: article.handle | append: ','
+    else
+      assign normal_handles = normal_handles | append: article.handle | append: ','
+    endif
+  endfor
+%}
+
+<div>Artikel mit Prio Tags: {{ prio_handles }}</div>
+<div>Artikel ohne Prio Tags:{{ normal_handles }}</div>
 
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
