@@ -19,43 +19,16 @@
 <div class="main-blog page-width section-{{ section.id }}-padding">
   <h1 class="title--primary">{{ blog.title | escape }}</h1>
 
-  {%- comment -%} Prio-Artikel oben (nicht gepaginert) {%- endcomment -%}
-  <div class="blog-articles blog-articles--prio {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-    {%- for article in blog.articles -%}
-      {%- if article.tags contains 'Prio' -%}
-        <div class="blog-articles__article article article--prio">
-          {%- render 'article-card',
-            article: article,
-            media_height: section.settings.image_height,
-            media_aspect_ratio: article.image.aspect_ratio,
-            show_image: section.settings.show_image,
-            show_date: section.settings.show_date,
-            show_author: section.settings.show_author,
-            show_excerpt: true
-          -%}
-        </div>
-      {%- endif -%}
-    {%- endfor -%}
-  </div>
-</div>
-
-{%- comment -%} Pagination über nicht-Prio-Artikel {%- endcomment -%}
-{%- assign non_prio_articles = '' -%}
-{%- for article in blog.articles -%}
-  {%- unless article.tags contains 'Prio' -%}
-    {%- assign non_prio_articles = non_prio_articles | append: article.handle | append: ',' -%}
-  {%- endunless -%}
-{%- endfor -%}
-{%- assign non_prio_array = non_prio_articles | split: ',' -%}
-
-{%- paginate non_prio_array by 6 -%}
+{%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
+    <h1 class="title--primary">{{ blog.title | escape }}</h1>
+
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-      {%- for handle in paginate.items -%}
-        {%- assign article = blogs[blog.handle].articles[handle] -%}
-        {%- if article != nil and article != blank -%}
-          <div class="blog-articles__article article">
-            {%- render 'article-card',
+
+      {%- for article in paginate.items -%}
+        {%- if article.tags contains 'Prio' -%}
+          <div class="blog-articles__article article article--prio">
+            {% render 'article-card',
               article: article,
               media_height: section.settings.image_height,
               media_aspect_ratio: article.image.aspect_ratio,
@@ -63,10 +36,27 @@
               show_date: section.settings.show_date,
               show_author: section.settings.show_author,
               show_excerpt: true
-            -%}
+            %}
           </div>
         {%- endif -%}
       {%- endfor -%}
+
+      {%- for article in paginate.items -%}
+        {%- unless article.tags contains 'Prio' -%}
+          <div class="blog-articles__article article">
+            {% render 'article-card',
+              article: article,
+              media_height: section.settings.image_height,
+              media_aspect_ratio: article.image.aspect_ratio,
+              show_image: section.settings.show_image,
+              show_date: section.settings.show_date,
+              show_author: section.settings.show_author,
+              show_excerpt: true
+            %}
+          </div>
+        {%- endunless -%}
+      {%- endfor -%}
+
     </div>
 
     {%- if paginate.pages > 1 -%}
@@ -74,6 +64,7 @@
     {%- endif -%}
   </div>
 {%- endpaginate -%}
+
 
 
 {% schema %}
