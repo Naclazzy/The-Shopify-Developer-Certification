@@ -15,13 +15,27 @@
     }
   }
 {%- endstyle -%}
-{% assign current_page = paginate.current_page | default: 1 %}
+{%- comment -%} Handles der Nicht-Prio-Artikel aufbauen {%- endcomment -%}
+{%- assign normal_handles = '' -%}
+{%- for article in blog.articles -%}
+  {%- unless article.tags contains 'Prio' -%}
+    {%- assign normal_handles = normal_handles | append: article.handle | append: ',' -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- assign normal_array = normal_handles | split: ',' -%}
+{%- assign normal_array = normal_array | uniq -%}
 
-{%- comment -%} Zeige nur auf Seite 1 die Prio-Artikel {%- endcomment -%}
-{%- if current_page == 1 -%}
+{%- comment -%} Seite bestimmen (dirty workaround über query string) {%- endcomment -%}
+{%- assign current_url = request.path | append: request.query_string -%}
+{%- assign page_num = current_url | split: 'page=' | last | plus: 0 -%}
+{%- if page_num == 0 -%}
+  {%- assign page_num = 1 -%}
+{%- endif -%}
+
+{%- if page_num == 1 -%}
   <div class="blog-articles blog-articles--prio">
-    {% for article in blog.articles %}
-      {% if article.tags contains 'Prio' %}
+    {%- for article in blog.articles -%}
+      {%- if article.tags contains 'Prio' -%}
         <div class="blog-articles__article article article--prio">
           {% render 'article-card',
             article: article,
@@ -33,15 +47,16 @@
             show_excerpt: true
           %}
         </div>
-      {% endif %}
-    {% endfor %}
+      {%- endif -%}
+    {%- endfor -%}
   </div>
 {%- endif -%}
 
-{%- paginate blog.articles by 6 -%}
-  <div class="blog-articles">
-    {% for article in paginate.items %}
-      {% unless article.tags contains 'Prio' %}
+{%- paginate normal_array by 6 -%}
+  <div class="blog-articles blog-articles--normal">
+    {%- for handle in paginate.items -%}
+      {%- assign article = blogs[blog.handle].articles[handle] -%}
+      {%- if article != blank -%}
         <div class="blog-articles__article article">
           {% render 'article-card',
             article: article,
@@ -53,14 +68,12 @@
             show_excerpt: true
           %}
         </div>
-      {% endunless %}
-    {% endfor %}
+      {%- endif -%}
+    {%- endfor -%}
   </div>
 
   {% render 'pagination', paginate: paginate %}
 {%- endpaginate -%}
-
-
 
 
 {% schema %}
