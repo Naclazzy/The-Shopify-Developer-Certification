@@ -39,7 +39,12 @@
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {% for article in blog.articles %}
         {% if article.tags contains 'Prio' %}
-          <div class="blog-articles__article article" style="background: green;">
+          <style>
+            .card.article-card{
+              background: green!important;
+            } 
+          </style>
+          <div class="blog-articles__article article" style="">
             {% render 'article-card',
               article: article,
               media_height: section.settings.image_height,
