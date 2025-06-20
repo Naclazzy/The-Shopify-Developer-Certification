@@ -1,19 +1,13 @@
-{%- comment -%}
-  Blog‑Section
-  ● Alle Artikel mit Tag „Prio“ werden immer ganz oben angezeigt (unabhängig von Pagination).
-  ● Danach folgt die paginierte Liste der übrigen Artikel.
-  ● Pagination zählt nur die Nicht‑Prio‑Artikel, sodass keine Duplikate entstehen.
-{%- endcomment -%}
-
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
-{{ 'component-card.css'        | asset_url | stylesheet_tag }}
-{{ 'section-main-blog.css'     | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -22,44 +16,31 @@
   }
 {%- endstyle -%}
 
-{%- assign prio_articles = '' | split: ',' -%}
-{%- for article in blog.articles -%}
-  {%- if article.tags contains 'Prio' -%}
-    {%- assign prio_articles = prio_articles | push: article -%}
-  {%- endif -%}
-{%- endfor -%}
+{% liquid
+  assign prio_handles = ''
+  assign normal_handles = ''
 
-<div class="main-blog page-width section-{{ section.id }}-padding">
-  <h1 class="title--primary">{{ blog.title | escape }}</h1>
+  for article in blog.articles
+    if article.tags contains 'Prio'
+      assign prio_handles = prio_handles | append: article.handle | append: ','
+    else
+      assign normal_handles = normal_handles | append: article.handle | append: ','
+    endif
+  endfor
+%}
 
-  {%- comment -%} --- Prio‑Beiträge (immer sichtbar) --- {%- endcomment -%}
-  {%- if prio_articles != blank -%}
-    <div class="blog-articles blog-articles--prio {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-      {%- for article in prio_articles -%}
-        <div class="blog-articles__article article article--prio">
-          {%- render 'article-card',
-            article: article,
-            media_height: section.settings.image_height,
-            media_aspect_ratio: article.image.aspect_ratio,
-            show_image: section.settings.show_image,
-            show_date: section.settings.show_date,
-            show_author: section.settings.show_author,
-            show_excerpt: true
-          -%}
-        </div>
-      {%- endfor -%}
-    </div>
-  {%- endif -%}
-</div>
+<div><strong>Artikel mit Prio Tags:</strong> {{ prio_handles }}</div>
+<div><strong>Artikel ohne Prio Tags:</strong>{{ normal_handles }}</div>
 
-{%- comment -%} --- Pagination über alle Artikel --- {%- endcomment -%}
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
+    <h1 class="title--primary">{{ blog.title | escape }}</h1>
+
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-      {%- for article in paginate.items -%}
-        {%- unless article.tags contains 'Prio' -%}
+      {% for article in blog.articles %}
+        {% if article.tags contains 'Prio' %}
           <div class="blog-articles__article article">
-            {%- render 'article-card',
+            {% render 'article-card',
               article: article,
               media_height: section.settings.image_height,
               media_aspect_ratio: article.image.aspect_ratio,
@@ -67,10 +48,26 @@
               show_date: section.settings.show_date,
               show_author: section.settings.show_author,
               show_excerpt: true
-            -%}
+            %}
           </div>
-        {%- endunless -%}
-      {%- endfor -%}
+        {% endif %}
+      {% endfor %}
+
+      {% for article in blog.articles %}
+        {% unless article.tags contains 'Prio' %}
+          <div class="blog-articles__article article">
+            {% render 'article-card',
+              article: article,
+              media_height: section.settings.image_height,
+              media_aspect_ratio: article.image.aspect_ratio,
+              show_image: section.settings.show_image,
+              show_date: section.settings.show_date,
+              show_author: section.settings.show_author,
+              show_excerpt: true
+            %}
+          </div>
+        {% endunless %}
+      {% endfor %}
     </div>
 
     {%- if paginate.pages > 1 -%}
