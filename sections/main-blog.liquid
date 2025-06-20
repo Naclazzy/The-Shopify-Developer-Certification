@@ -22,7 +22,7 @@
  
  for article in blog.articles 
    if article.tags contains 'Prio'
-     assign articlePrio = articlePrio | append: article.handle | append: ','
+     assign articlePrio = articlePrio | append: article.id | append: ','
    else
      assign articleNorm = articleNorm | append: article.handle
    endif 
@@ -39,7 +39,6 @@
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {% assign articles = articlePrio | split: ',' %}
       {%- for article in articles -%}
-        {% if article.tags contains 'Prio' %}
           <div class="blog-articles__article article">
             {%- render 'article-card',
               article: article,
@@ -51,7 +50,6 @@
               show_excerpt: true
             -%}
           </div>
-        {% endif %}
       {%- endfor -%}
     </div>
 
