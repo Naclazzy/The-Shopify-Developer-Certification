@@ -16,6 +16,21 @@
   }
 {%- endstyle -%}
 
+{% liquid
+ assign articlePrio = ''
+ assign articleNorm = ''
+ 
+ for article in blog.articles 
+   if article.tags contains 'Prio'
+     assign articlePrio = articlePrio | append: article.handle
+   else
+     assign articleNorm = articleNorm | append: article.handle
+   endif 
+ endfor
+%}
+
+
+
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary">{{ blog.title | escape }}</h1>
