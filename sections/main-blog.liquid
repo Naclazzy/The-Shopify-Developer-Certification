@@ -40,11 +40,11 @@
       {% for article in blog.articles %}
         {% if article.tags contains 'Prio' %}
           <style>
-            .card.article-card{
+            .article-prio .card.article-card{
               background: green!important;
             } 
           </style>
-          <div class="blog-articles__article article" style="">
+          <div class="blog-articles__article article article-prio" style="">
             {% render 'article-card',
               article: article,
               media_height: section.settings.image_height,
